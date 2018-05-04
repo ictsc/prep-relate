@@ -7,10 +7,7 @@ RUN pip3 install --upgrade pip
 
 RUN git clone git://github.com/inducer/relate
 WORKDIR /root/relate
-<<<<<<< HEAD
 RUN cp local_settings_example.py local_settings.py
-=======
->>>>>>> ff3bf1a1717628661712b5f04e10f46bcbff873f
 RUN pip3 install -r requirements.txt
 ADD local_settings.py /root/relate/
 RUN python3 manage.py migrate
