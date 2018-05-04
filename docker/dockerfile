@@ -7,9 +7,9 @@ RUN pip3 install --upgrade pip
 
 RUN git clone git://github.com/inducer/relate
 WORKDIR /root/relate
-RUN cp local_settings_example.py local_settings.py
+ADD local_settings_ictsc.py /root/relate/
+RUN cp local_settings_ictsc.py local_settings.py
 RUN pip3 install -r requirements.txt
-ADD local_settings.py /root/relate/
 RUN python3 manage.py migrate
 #RUN python3 manage.py createsuperuser --username=admin
 
