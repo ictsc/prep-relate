@@ -20,4 +20,13 @@ COPY ./ /relate-for-ictsc/
 # 設定
 RUN cp local_settings_example.py local_settings.py
 RUN python manage.py migrate
+
+# Install Node.js
+RUN apt-get install --yes curl
+RUN curl --silent --location https://deb.nodesource.com/setup_4.x | bash -
+RUN apt-get install --yes nodejs
+RUN apt-get install --yes build-essential
+
+RUN npm install
+
 CMD ["python","manage.py","runserver","0.0.0.0:8000"]
