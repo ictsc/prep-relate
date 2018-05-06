@@ -1,0 +1,6439 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-03-03 13:57+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: accounts/admin.py:47 course/admin.py:575 course/admin.py:687
+#: course/admin.py:794 course/admin.py:875 course/admin.py:966
+#: course/models.py:242 course/models.py:289 course/models.py:334
+#: course/models.py:369 course/models.py:475 course/models.py:579
+#: course/models.py:795 course/models.py:830 course/models.py:1441
+#: course/models.py:1845
+msgid "Course"
+msgstr "コース"
+
+#: accounts/apps.py:8
+msgid "Accounts"
+msgstr "アカウント"
+
+#: accounts/models.py:42
+msgid "username"
+msgstr "ユーザー名"
+
+#: accounts/models.py:46
+msgid "Required. 30 characters or fewer. Letters, digits and @/./+/-/_ only."
+msgstr "必須 30文字以下の文字、数字、@/./+/-/_のみ有効です。"
+
+#: accounts/models.py:49 course/auth.py:478
+msgid "A user with that username already exists."
+msgstr "そのユーザー名は使用されています。"
+
+#: accounts/models.py:52
+msgid "first name"
+msgstr "名"
+
+#: accounts/models.py:53
+msgid "last name"
+msgstr "姓"
+
+#: accounts/models.py:54 course/auth.py:613
+msgid "email address"
+msgstr "メールアドレス"
+
+#: accounts/models.py:57
+msgid "Name verified"
+msgstr "名前確認済み"
+
+#: accounts/models.py:60
+msgid ""
+"Indicates that this user's name has been verified as being associated with "
+"the individual able to sign in to this account."
+msgstr "登録者本人の名前だと確認済みの場合、チェックしてください。グレーアウトになり、ユーザーは名前を編集できません。"
+
+#: accounts/models.py:66
+msgctxt "User status"
+msgid "active"
+msgstr "アカウント有効化"
+
+#: accounts/models.py:69
+msgid ""
+"Designates whether this user should be treated as active. Unselect this "
+"instead of deleting accounts."
+msgstr "アカウントを有効にします。チェックを外した場合、このアカウントではログインできません。"
+
+#: accounts/models.py:73
+msgid "date joined"
+msgstr "登録日時"
+
+#: accounts/models.py:78
+msgid "staff status"
+msgstr "管理メンバーに追加"
+
+#: accounts/models.py:80
+msgid "Designates whether the user can log into this admin site."
+msgstr "管理画面へのログインを有効にします。"
+
+#: accounts/models.py:84 course/auth.py:558 course/enrollment.py:446
+#: course/grades.py:1048 course/models.py:577
+#: course/templates/course/participation-table.html:19
+#: relate/templates/reset-passwd-form.html:20
+msgid "Institutional ID"
+msgstr ""
+
+#: accounts/models.py:87
+msgid "Institutional ID verified"
+msgstr ""
+
+#: accounts/models.py:90
+msgid ""
+"Indicates that this user's institutional ID has been verified as being "
+"associated with the individual able to log in to this account."
+msgstr ""
+
+#: accounts/models.py:97
+msgid "User status"
+msgstr "ユーザーの状態"
+
+#: accounts/models.py:100
+msgid "The sign in token sent out in email."
+msgstr ""
+
+#. Translators: the sign in token of the user.
+#: accounts/models.py:103
+msgid "Sign in key"
+msgstr ""
+
+#: accounts/models.py:106
+msgid "The time stamp of the sign in token."
+msgstr ""
+
+#. Translators: the time when the token is sent out.
+#: accounts/models.py:108
+msgid "Key time"
+msgstr ""
+
+#: accounts/models.py:111
+msgid ""
+"Which key bindings you prefer when editing larger amounts of text or code. "
+"(If you do not understand what this means, leave it as 'Default'.)"
+msgstr "テキストやコードを編集する際の書式設定 (わからない場合はデフォルトを選択してください)"
+
+#: accounts/models.py:116 course/utils.py:1190
+msgid "Default"
+msgstr "デフォルト"
+
+#. Translators: the text editor used by participants
+#: accounts/models.py:123
+msgid "Editor mode"
+msgstr "エディタモード"
+
+#: accounts/models.py:129 accounts/models.py:213
+msgid "user"
+msgstr "ユーザー"
+
+#: accounts/models.py:130
+msgid "users"
+msgstr "ユーザー"
+
+#: accounts/models.py:140
+msgid "(blank)"
+msgstr ""
+
+#: accounts/models.py:173 course/auth.py:200 course/exam.py:214
+#: course/models.py:840 course/models.py:1028
+#: course/templates/course/grade-import-preview.html:19
+#: course/templates/course/gradebook-by-opp.html:121
+#: course/templates/course/gradebook-participant.html:40
+#: course/templates/course/gradebook.html:21
+#: course/templates/course/participation-table.html:8
+msgid "User"
+msgstr "ユーザー"
+
+#: accounts/models.py:230
+msgid "That email address is already in use."
+msgstr "このメールアドレスは既に使用されています。"
+
+#: course/admin.py:277
+msgid "Tags must belong to same course as participation."
+msgstr ""
+
+#: course/admin.py:284
+msgid "Role must belong to same course as participation."
+msgstr ""
+
+#: course/admin.py:294 course/admin.py:369 course/enrollment.py:442
+#: course/models.py:482 course/models.py:583
+msgid "Roles"
+msgstr "役割"
+
+#: course/admin.py:313 course/exam.py:215
+#: course/templates/course/gradebook-by-opp.html:119
+#: course/templates/course/gradebook-participant.html:31
+#: course/templates/course/gradebook.html:19
+#: course/templates/course/participation-table.html:15
+msgctxt "real name of a user"
+msgid "Name"
+msgstr ""
+
+#: course/admin.py:450 course/admin.py:692 course/admin.py:804
+#: course/admin.py:880 course/exam.py:98
+#: course/templates/course/gradebook-single.html:17 course/views.py:737
+msgid "Participant"
+msgstr "参加者"
+
+#: course/admin.py:551 course/admin.py:580 course/flow.py:2769
+#: course/models.py:797 course/models.py:845 course/models.py:1267
+#: course/models.py:1339 course/models.py:1462 course/models.py:1849
+#: course/templates/course/gradebook-opp-list.html:26
+#: course/templates/course/gradebook-single.html:142 course/views.py:585
+#: course/views.py:667 course/views.py:742
+msgid "Flow ID"
+msgstr ""
+
+#: course/admin.py:585
+msgid "not in use"
+msgstr "使用されていません"
+
+#: course/admin.py:594 course/grades.py:1381 course/models.py:967
+msgid "Page ID"
+msgstr ""
+
+#: course/admin.py:601
+msgid "anonymous"
+msgstr ""
+
+#: course/admin.py:603
+msgid "Owner"
+msgstr ""
+
+#: course/admin.py:608
+msgid "Has answer"
+msgstr ""
+
+#: course/admin.py:613
+msgid "Flow Session ID"
+msgstr ""
+
+#: course/admin.py:799
+msgid "Opportunity"
+msgstr ""
+
+#: course/admin.py:1015
+msgid "Revoke Exam Tickets"
+msgstr ""
+
+#: course/analytics.py:59 course/analytics.py:453 course/analytics.py:495
+msgid "may not view analytics"
+msgstr ""
+
+#: course/analytics.py:107
+msgctxt "No data"
+msgid "None"
+msgstr ""
+
+#: course/analytics.py:116
+msgctxt "Value of grade"
+msgid "value greater than max"
+msgstr ""
+
+#: course/analytics.py:124
+msgctxt "Value of grade"
+msgid "value smaller than min"
+msgstr ""
+
+#: course/analytics.py:175
+msgctxt "Value in histogram"
+msgid "<out of bounds>"
+msgstr ""
+
+#: course/analytics.py:277 course/analytics.py:426
+msgctxt "Status of session"
+msgid "in progress"
+msgstr ""
+
+#: course/analytics.py:420
+msgctxt "Minute (time unit)"
+msgid "min"
+msgstr ""
+
+#: course/analytics.py:463
+#, python-format
+msgid ""
+"Flow '%s' was not found in the repository, but it exists in the database--"
+"maybe it was deleted?"
+msgstr ""
+
+#: course/apps.py:9
+msgid "Course module"
+msgstr "コース"
+
+#: course/auth.py:153
+msgid "Error while impersonating."
+msgstr ""
+
+#: course/auth.py:198
+msgid "Select user to impersonate."
+msgstr ""
+
+#: course/auth.py:205
+msgid "Add impersonation header"
+msgstr ""
+
+#: course/auth.py:206
+msgid ""
+"Add impersonation header to every page rendered while impersonating, as a "
+"reminder that impersonation is in progress."
+msgstr ""
+
+#: course/auth.py:210
+msgid "Impersonate"
+msgstr ""
+
+#: course/auth.py:224
+msgid "Already impersonating someone."
+msgstr ""
+
+#: course/auth.py:248 relate/templates/base.html:112
+msgid "Impersonate user"
+msgstr ""
+
+#: course/auth.py:258 relate/templates/base-page-top.html:64
+#: relate/templates/base.html:110
+msgid "Stop impersonating"
+msgstr ""
+
+#: course/auth.py:285
+msgid "Not currently impersonating anyone."
+msgstr ""
+
+#: course/auth.py:292
+msgid "No longer impersonating anyone."
+msgstr ""
+
+#: course/auth.py:301
+msgid "Stop impersonating user"
+msgstr ""
+
+#: course/auth.py:396 course/templates/course/course-page.html:17
+#: course/templates/course/flow-start.html:210
+#: course/templates/course/login.html:7 relate/templates/403.html:14
+#: relate/templates/base.html:149
+msgid "Sign in"
+msgstr "サインイン"
+
+#: course/auth.py:411
+msgid "Username-based sign-in is not being used"
+msgstr ""
+
+#: course/auth.py:450 course/grades.py:1049
+msgid "Username"
+msgstr ""
+
+#: course/auth.py:463 course/auth.py:552 course/auth.py:564
+msgid "Send email"
+msgstr ""
+
+#: course/auth.py:470 course/auth.py:577 course/auth.py:706
+msgid "self-registration is not enabled"
+msgstr ""
+
+#: course/auth.py:506
+msgid "Verify your email"
+msgstr ""
+
+#: course/auth.py:520 course/auth.py:665 course/auth.py:831
+msgid "Email sent. Please check your email and click the link."
+msgstr "メールを送信しました。メールを確認し、リンクをクリックしてください。"
+
+#: course/auth.py:529
+#, python-format
+msgid ""
+"That email address is already in use. Would you like to <a href='%s'>reset "
+"your password</a> instead?"
+msgstr ""
+
+#: course/auth.py:539
+msgid "Sign up"
+msgstr ""
+
+#: course/auth.py:545 course/auth.py:772 course/enrollment.py:445
+#: course/models.py:575 relate/templates/reset-passwd-form.html:17
+msgid "Email"
+msgstr ""
+
+#: course/auth.py:606
+msgid ""
+"Failed to send an email: multiple users were unexpectedly using that same "
+"email address. Please contact site staff."
+msgstr ""
+
+#: course/auth.py:614
+msgid "institutional ID"
+msgstr ""
+
+#: course/auth.py:617
+#, python-format
+msgid ""
+"That %(field)s doesn't have an associated user account. Are you sure you've "
+"registered?"
+msgstr ""
+
+#: course/auth.py:624
+msgid "The account with that institution ID doesn't have an associated email."
+msgstr ""
+
+#: course/auth.py:645
+msgid "Password reset"
+msgstr ""
+
+#: course/auth.py:660
+#, python-format
+msgid "The email address associated with that account is %s."
+msgstr ""
+
+#: course/auth.py:675 course/auth.py:761
+#, python-format
+msgid "Password reset on %(site_name)s"
+msgstr ""
+
+#: course/auth.py:683
+msgid "Password"
+msgstr ""
+
+#: course/auth.py:685
+msgid "Password confirmation"
+msgstr ""
+
+#: course/auth.py:691 course/auth.py:952 course/enrollment.py:983
+#: course/grades.py:1597 course/versioning.py:493 course/views.py:1356
+msgid "Update"
+msgstr "更新"
+
+#: course/auth.py:699
+msgid "The two password fields didn't match."
+msgstr ""
+
+#: course/auth.py:715 course/auth.py:729 course/auth.py:858
+msgid "Invalid sign-in token. Perhaps you've used an old token email?"
+msgstr ""
+
+#: course/auth.py:717 course/auth.py:720 course/auth.py:731 course/auth.py:736
+#: course/auth.py:860 course/auth.py:865
+msgid "invalid sign-in token"
+msgstr ""
+
+#: course/auth.py:719 course/auth.py:855
+msgid "Account does not exist."
+msgstr ""
+
+#: course/auth.py:735 course/auth.py:864
+msgid "Account disabled."
+msgstr ""
+
+#: course/auth.py:746 course/auth.py:871
+msgid ""
+"Successfully signed in. Please complete your registration information below."
+msgstr ""
+
+#: course/auth.py:753 course/auth.py:878
+msgid "Successfully signed in."
+msgstr ""
+
+#: course/auth.py:780
+msgid "Send sign-in email"
+msgstr "サインインメールを送信"
+
+#: course/auth.py:787 course/auth.py:847
+msgid "Email-based sign-in is not being used"
+msgstr ""
+
+#: course/auth.py:816
+#, python-format
+msgid "Your %(relate_site_name)s sign-in link"
+msgstr ""
+
+#: course/auth.py:896
+msgid "Institutional ID Confirmation"
+msgstr ""
+
+#: course/auth.py:920
+#, python-format
+msgid ""
+"The unique ID your university or school provided, which may be used by some "
+"courses to verify eligibility to enroll. <b>Once %(submitted_or_verified)s, "
+"it cannot be changed</b>."
+msgstr ""
+
+#: course/auth.py:927
+msgid "verified"
+msgstr ""
+
+#: course/auth.py:927
+msgid "submitted"
+msgstr ""
+
+#: course/auth.py:955 relate/templates/sign-out-confirmation.html:7
+msgid "Sign out"
+msgstr "サインアウト"
+
+#: course/auth.py:967
+msgid "This field is required."
+msgstr ""
+
+#: course/auth.py:969
+msgid "Inputs do not match."
+msgstr ""
+
+#: course/auth.py:1001
+msgid "Profile data updated."
+msgstr "正常に更新されました。"
+
+#: course/auth.py:1006
+msgid "No change was made on your profile."
+msgstr "変更はありませんでした。"
+
+#: course/auth.py:1029
+msgid "User Profile"
+msgstr "プロフィール"
+
+#: course/auth.py:1074 course/auth.py:1092
+msgid "You've already signed out."
+msgstr ""
+
+#: course/auth.py:1287 course/calendar.py:90
+msgid "Create"
+msgstr ""
+
+#: course/auth.py:1338
+#, python-format
+msgid ""
+"A new authentication token has been created: %s. Please save this token, as "
+"you will not be able to retrieve it later."
+msgstr ""
+
+#: course/auth.py:1344
+msgid "Could not find which button was pressed."
+msgstr ""
+
+#. Translators: format of event kind in Event model
+#: course/calendar.py:55 course/calendar.py:215 course/models.py:292
+msgid "Should be lower_case_with_underscores, no spaces allowed."
+msgstr ""
+
+#: course/calendar.py:57 course/calendar.py:217
+msgctxt "Kind of event"
+msgid "Kind of event"
+msgstr ""
+
+#: course/calendar.py:61
+msgctxt "Starting time of event"
+msgid "Starting time"
+msgstr "開始日時"
+
+#: course/calendar.py:63
+msgid "Duration in minutes"
+msgstr ""
+
+#: course/calendar.py:67
+msgid "All-day event"
+msgstr ""
+
+#. Translators: for when the due time is "All day", how the webpage
+#. of a event is displayed.
+#: course/calendar.py:68 course/models.py:305
+msgid ""
+"Only affects the rendering in the class calendar, in that a start time is "
+"not shown"
+msgstr ""
+
+#: course/calendar.py:73 course/models.py:310
+msgid "Shown in calendar"
+msgstr ""
+
+#: course/calendar.py:76
+msgid "Weekly"
+msgstr ""
+
+#: course/calendar.py:77
+msgid "Bi-Weekly"
+msgstr ""
+
+#: course/calendar.py:79
+msgctxt "Interval of recurring events"
+msgid "Interval"
+msgstr ""
+
+#: course/calendar.py:82 course/calendar.py:220
+msgctxt "Starting ordinal of recurring events"
+msgid "Starting ordinal"
+msgstr ""
+
+#: course/calendar.py:84
+msgctxt "Count of recurring events"
+msgid "Count"
+msgstr ""
+
+#: course/calendar.py:120
+#, python-format
+msgid "'%(event_kind)s %(event_ordinal)d' already exists"
+msgstr ""
+
+#: course/calendar.py:133
+msgctxt "Unkown time interval"
+msgid "unknown interval"
+msgstr ""
+
+#: course/calendar.py:149 course/calendar.py:234
+msgid "may not edit events"
+msgstr ""
+
+#: course/calendar.py:183 course/calendar.py:195
+msgid "No events created."
+msgstr ""
+
+#: course/calendar.py:201
+msgid "Events created."
+msgstr ""
+
+#: course/calendar.py:209 course/templates/course/course-base.html:134
+msgid "Create recurring events"
+msgstr "定期イベントの作成"
+
+#: course/calendar.py:226
+msgid "Renumber"
+msgstr ""
+
+#: course/calendar.py:266
+msgid "Events renumbered."
+msgstr ""
+
+#: course/calendar.py:269
+msgid "No events found."
+msgstr ""
+
+#: course/calendar.py:276 course/templates/course/course-base.html:135
+msgid "Renumber events"
+msgstr ""
+
+#: course/calendar.py:301
+msgid "may not view calendar"
+msgstr ""
+
+#: course/constants.py:50
+msgctxt "User status"
+msgid "Unconfirmed"
+msgstr ""
+
+#: course/constants.py:51
+msgctxt "User status"
+msgid "Active"
+msgstr ""
+
+#: course/constants.py:66
+msgctxt "Participation status"
+msgid "Requested"
+msgstr ""
+
+#: course/constants.py:68
+msgctxt "Participation status"
+msgid "Active"
+msgstr ""
+
+#: course/constants.py:70
+msgctxt "Participation status"
+msgid "Dropped"
+msgstr ""
+
+#: course/constants.py:72
+msgctxt "Participation status"
+msgid "Denied"
+msgstr ""
+
+#: course/constants.py:141
+msgctxt "Participation permission"
+msgid "Edit course"
+msgstr ""
+
+#: course/constants.py:143
+msgctxt "Participation permission"
+msgid "Use admin interface"
+msgstr ""
+
+#: course/constants.py:146
+msgctxt "Participation permission"
+msgid "Manage authentication tokens"
+msgstr "認証トークンの管理"
+
+#: course/constants.py:149
+msgctxt "Participation permission"
+msgid "Impersonate role"
+msgstr ""
+
+#: course/constants.py:151
+msgctxt "Participation permission"
+msgid "Set fake time"
+msgstr ""
+
+#: course/constants.py:153
+msgctxt "Participation permission"
+msgid "Pretend to be in facility"
+msgstr ""
+
+#: course/constants.py:155
+msgctxt "Participation permission"
+msgid "Edit course permissions"
+msgstr ""
+
+#: course/constants.py:157
+msgctxt "Participation permission"
+msgid "View hidden course page"
+msgstr ""
+
+#: course/constants.py:159
+msgctxt "Participation permission"
+msgid "View calendar"
+msgstr ""
+
+#: course/constants.py:161
+msgctxt "Participation permission"
+msgid "Send instant message"
+msgstr ""
+
+#: course/constants.py:163
+msgctxt "Participation permission"
+msgid "Access files for"
+msgstr ""
+
+#: course/constants.py:166
+msgctxt "Participation permission"
+msgid "Included in grade statistics"
+msgstr ""
+
+#: course/constants.py:169
+msgctxt "Participation permission"
+msgid "Skip during manual grading"
+msgstr ""
+
+#: course/constants.py:172
+msgctxt "Participation permission"
+msgid "Edit exam"
+msgstr ""
+
+#: course/constants.py:174
+msgctxt "Participation permission"
+msgid "Issue exam ticket"
+msgstr ""
+
+#: course/constants.py:176
+msgctxt "Participation permission"
+msgid "Batch issue exam ticket"
+msgstr ""
+
+#: course/constants.py:180
+msgctxt "Participation permission"
+msgid "View participants' masked profile only"
+msgstr ""
+
+#: course/constants.py:183
+msgctxt "Participation permission"
+msgid "View flow sessions from role"
+msgstr ""
+
+#: course/constants.py:185
+msgctxt "Participation permission"
+msgid "View gradebook"
+msgstr ""
+
+#: course/constants.py:187
+msgctxt "Participation permission"
+msgid "Edit grading opportunity"
+msgstr "問題集の編集"
+
+#: course/constants.py:189
+msgctxt "Participation permission"
+msgid "Assign grade"
+msgstr ""
+
+#: course/constants.py:191
+msgctxt "Participation permission"
+msgid "View grader stats"
+msgstr ""
+
+#: course/constants.py:193
+msgctxt "Participation permission"
+msgid "Batch-import grades"
+msgstr ""
+
+#: course/constants.py:195
+msgctxt "Participation permission"
+msgid "Batch-export grades"
+msgstr ""
+
+#: course/constants.py:197
+msgctxt "Participation permission"
+msgid "Batch-download submissions"
+msgstr ""
+
+#: course/constants.py:201
+msgctxt "Participation permission"
+msgid "Impose flow session deadline"
+msgstr ""
+
+#: course/constants.py:204
+msgctxt "Participation permission"
+msgid "Batch-impose flow session deadline"
+msgstr ""
+
+#: course/constants.py:206
+msgctxt "Participation permission"
+msgid "End flow session"
+msgstr ""
+
+#: course/constants.py:208
+msgctxt "Participation permission"
+msgid "Batch-end flow sessions"
+msgstr ""
+
+#: course/constants.py:210
+msgctxt "Participation permission"
+msgid "Regrade flow session"
+msgstr ""
+
+#: course/constants.py:213
+msgctxt "Participation permission"
+msgid "Batch-regrade flow sessions"
+msgstr ""
+
+#: course/constants.py:216
+msgctxt "Participation permission"
+msgid "Recalculate flow session grade"
+msgstr ""
+
+#: course/constants.py:219
+msgctxt "Participation permission"
+msgid "Batch-recalculate flow sesssion grades"
+msgstr ""
+
+#: course/constants.py:222
+msgctxt "Participation permission"
+msgid "Reopen flow session"
+msgstr ""
+
+#: course/constants.py:224
+msgctxt "Participation permission"
+msgid "Grant exception"
+msgstr ""
+
+#: course/constants.py:226
+msgctxt "Participation permission"
+msgid "View analytics"
+msgstr ""
+
+#: course/constants.py:229
+msgctxt "Participation permission"
+msgid "Preview content"
+msgstr ""
+
+#: course/constants.py:231
+msgctxt "Participation permission"
+msgid "Update content"
+msgstr ""
+
+#: course/constants.py:233
+msgctxt "Participation permission"
+msgid "Use markup sandbox"
+msgstr ""
+
+#: course/constants.py:235
+msgctxt "Participation permission"
+msgid "Use page sandbox"
+msgstr ""
+
+#: course/constants.py:237
+msgctxt "Participation permission"
+msgid "Test flow"
+msgstr ""
+
+#: course/constants.py:240
+msgctxt "Participation permission"
+msgid "Edit events"
+msgstr ""
+
+#: course/constants.py:243
+msgctxt "Participation permission"
+msgid "Query participation"
+msgstr ""
+
+#: course/constants.py:245
+msgctxt "Participation permission"
+msgid "Edit participation"
+msgstr ""
+
+#: course/constants.py:247
+msgctxt "Participation permission"
+msgid "Preapprove participation"
+msgstr ""
+
+#: course/constants.py:251
+msgctxt "Participation permission"
+msgid "Manage instant flow requests"
+msgstr ""
+
+#: course/constants.py:290
+msgctxt "Flow expiration mode"
+msgid "Submit session for grading"
+msgstr ""
+
+#: course/constants.py:293
+msgctxt "Flow expiration mode"
+msgid "Do not submit session for grading"
+msgstr ""
+
+#: course/constants.py:306
+msgid "unknown expiration mode"
+msgstr ""
+
+#: course/constants.py:398
+msgctxt "Flow permission"
+msgid "View the flow"
+msgstr ""
+
+#: course/constants.py:400
+msgctxt "Flow permission"
+msgid "Submit answers"
+msgstr ""
+
+#: course/constants.py:402
+msgctxt "Flow permission"
+msgid "End session"
+msgstr ""
+
+#: course/constants.py:404
+msgctxt "Flow permission"
+msgid "Change already-graded answer"
+msgstr ""
+
+#: course/constants.py:407
+msgctxt "Flow permission"
+msgid "See whether an answer is correct"
+msgstr ""
+
+#: course/constants.py:410
+msgctxt "Flow permission"
+msgid "See the correct answer before answering"
+msgstr ""
+
+#: course/constants.py:413
+msgctxt "Flow permission"
+msgid "See the correct answer after answering"
+msgstr ""
+
+#: course/constants.py:416
+msgctxt "Flow permission"
+msgid "Cannot see flow result"
+msgstr ""
+
+#: course/constants.py:419
+msgctxt "Flow permission"
+msgid "Set the session to 'roll over' expiration mode"
+msgstr ""
+
+#: course/constants.py:421
+msgctxt "Flow permission"
+msgid "See session time"
+msgstr ""
+
+#: course/constants.py:423
+msgctxt "Flow permission"
+msgid "Lock down as exam session"
+msgstr ""
+
+#: course/constants.py:426
+msgctxt "Flow permission"
+msgid "Send emails about the flow page to course staff"
+msgstr ""
+
+#: course/constants.py:440
+msgctxt "Flow rule kind choices"
+msgid "Session Start"
+msgstr ""
+
+#: course/constants.py:442
+msgctxt "Flow rule kind choices"
+msgid "Session Access"
+msgstr ""
+
+#: course/constants.py:444
+msgctxt "Flow rule kind choices"
+msgid "Grading"
+msgstr ""
+
+#: course/constants.py:484
+msgctxt "Grade aggregation strategy"
+msgid "Use the max grade"
+msgstr ""
+
+#: course/constants.py:486
+msgctxt "Grade aggregation strategy"
+msgid "Use the avg grade"
+msgstr ""
+
+#: course/constants.py:488
+msgctxt "Grade aggregation strategy"
+msgid "Use the min grade"
+msgstr ""
+
+#: course/constants.py:490
+msgctxt "Grade aggregation strategy"
+msgid "Use the earliest grade"
+msgstr ""
+
+#: course/constants.py:492
+msgctxt "Grade aggregation strategy"
+msgid "Use the latest grade"
+msgstr ""
+
+#: course/constants.py:513
+msgctxt "Grade state change"
+msgid "Grading started"
+msgstr ""
+
+#: course/constants.py:515
+msgctxt "Grade state change"
+msgid "Graded"
+msgstr ""
+
+#: course/constants.py:517
+msgctxt "Grade state change"
+msgid "Retrieved"
+msgstr ""
+
+#: course/constants.py:519
+msgctxt "Grade state change"
+msgid "Unavailable"
+msgstr ""
+
+#: course/constants.py:521
+msgctxt "Grade state change"
+msgid "Extension"
+msgstr ""
+
+#: course/constants.py:523
+msgctxt "Grade state change"
+msgid "Report sent"
+msgstr ""
+
+#: course/constants.py:525
+msgctxt "Grade state change"
+msgid "Do-over"
+msgstr ""
+
+#: course/constants.py:527
+msgctxt "Grade state change"
+msgid "Exempt"
+msgstr ""
+
+#: course/constants.py:543
+msgctxt "Exam ticket state"
+msgid "Valid"
+msgstr ""
+
+#: course/constants.py:545
+msgctxt "Exam ticket state"
+msgid "Used"
+msgstr ""
+
+#: course/constants.py:547
+msgctxt "Exam ticket state"
+msgid "Revoked"
+msgstr ""
+
+#: course/content.py:236
+#, python-format
+msgid "commit sha '%s' not found"
+msgstr ""
+
+#: course/content.py:245
+#, python-format
+msgid "resource '%s' is a file, not a directory"
+msgstr ""
+
+#: course/content.py:256
+msgid "repo root is a directory, not a file"
+msgstr ""
+
+#: course/content.py:272
+#, python-format
+msgid "resource '%s' is a directory, not a file"
+msgstr ""
+
+#: course/content.py:277
+#, python-format
+msgid "resource '%s' not found"
+msgstr ""
+
+#: course/content.py:696
+msgid "I have no idea what a processing instruction is."
+msgstr ""
+
+#: course/content.py:1111
+#, python-format
+msgid "invalid period: %s"
+msgstr ""
+
+#: course/content.py:1227
+#, python-format
+msgid "unrecognized date/time specification: '%s' (interpreted as 'now')"
+msgstr ""
+
+#: course/content.py:1240
+#, python-format
+msgid "event '%s' has no end time, using start time instead"
+msgstr ""
+
+#: course/content.py:1422
+#, python-format
+msgid "page '%(group_id)s/%(page_id)s' in flow '%(flow_id)s'"
+msgstr ""
+
+#: course/content.py:1482
+#, python-format
+msgid "repo page class must conist of two dotted components (invalid: '%s')"
+msgstr ""
+
+#: course/enrollment.py:179 tests/test_enrollment.py:73
+msgid ""
+"You have previously sent the enrollment request. Re-sending the request is "
+"not allowed."
+msgstr ""
+
+#: course/enrollment.py:185 tests/test_enrollment.py:69
+msgid "Your enrollment request had been denied. Enrollment is not allowed."
+msgstr ""
+
+#: course/enrollment.py:190 tests/test_enrollment.py:71
+msgid "You had been dropped from the course. Re-enrollment is not allowed."
+msgstr "参加者から除外されています。再登録は許可されていません。"
+
+#: course/enrollment.py:196 tests/test_enrollment.py:77
+msgid "Already enrolled. Cannot re-enroll."
+msgstr ""
+
+#: course/enrollment.py:201 tests/test_enrollment.py:81
+msgid "Course is not accepting enrollments."
+msgstr ""
+
+#: course/enrollment.py:208 tests/test_enrollment.py:83
+msgid "Can only enroll using POST request"
+msgstr ""
+
+#: course/enrollment.py:213 tests/test_enrollment.py:93
+msgid ""
+"Your email address is not yet confirmed. Confirm your email to continue."
+msgstr ""
+
+#: course/enrollment.py:249 tests/test_enrollment.py:80
+#, python-format
+msgid "Enrollment not allowed. Please use your '%s' email to enroll."
+msgstr ""
+
+#: course/enrollment.py:282 tests/test_enrollment.py:98
+msgid "New enrollment request"
+msgstr ""
+
+#: course/enrollment.py:298 tests/test_enrollment.py:63
+msgid ""
+"Enrollment request sent. You will receive notifcation by email once your "
+"request has been acted upon."
+msgstr ""
+
+#: course/enrollment.py:305 course/enrollment.py:1081
+#: tests/test_enrollment.py:78
+msgid "Successfully enrolled."
+msgstr ""
+
+#: course/enrollment.py:309 tests/test_enrollment.py:76
+msgid "A participation already exists. Enrollment attempt aborted."
+msgstr ""
+
+#. Translators: how many enroll requests have ben processed.
+#: course/enrollment.py:365
+#, python-format
+msgid "%d requests processed."
+msgstr ""
+
+#: course/enrollment.py:407 tests/test_enrollment.py:100
+msgid "Your enrollment request"
+msgstr ""
+
+#: course/enrollment.py:420
+msgctxt "Admin"
+msgid "Approve enrollment"
+msgstr ""
+
+#: course/enrollment.py:426
+msgid "Deny enrollment"
+msgstr ""
+
+#: course/enrollment.py:449
+msgid "Preapproval type"
+msgstr ""
+
+#: course/enrollment.py:452
+msgid ""
+"Enter fully qualified data according to the \"Preapproval type\" you "
+"selected, one per line."
+msgstr ""
+
+#: course/enrollment.py:454
+msgid "Preapproval data"
+msgstr ""
+
+#: course/enrollment.py:457
+msgid "Preapprove"
+msgstr ""
+
+#: course/enrollment.py:465
+msgid "may not preapprove participation"
+msgstr ""
+
+#: course/enrollment.py:568 tests/test_enrollment.py:88
+#, python-format
+msgid ""
+"%(n_created)d preapprovals created, %(n_exist)d already existed, "
+"%(n_requested_approved)d pending requests approved."
+msgstr ""
+
+#: course/enrollment.py:583
+msgid "Create Participation Preapprovals"
+msgstr ""
+
+#: course/enrollment.py:813
+msgid "Enter queries, one per line."
+msgstr ""
+
+#: course/enrollment.py:814
+msgid "Allowed"
+msgstr ""
+
+#: course/enrollment.py:832
+msgid "Queries"
+msgstr ""
+
+#: course/enrollment.py:835
+msgid "Apply tag"
+msgstr ""
+
+#: course/enrollment.py:836
+msgid "Remove tag"
+msgstr ""
+
+#: course/enrollment.py:837 course/enrollment.py:992
+msgid "Drop"
+msgstr ""
+
+#: course/enrollment.py:839
+msgid "Operation"
+msgstr ""
+
+#: course/enrollment.py:841
+msgid "Tag"
+msgstr ""
+
+#: course/enrollment.py:842
+msgid "Tag to apply or remove"
+msgstr ""
+
+#: course/enrollment.py:849 course/exam.py:209
+msgid "List"
+msgstr ""
+
+#: course/enrollment.py:851
+msgid "Apply operation"
+msgstr ""
+
+#: course/enrollment.py:861
+msgid "may not query participations"
+msgstr ""
+
+#: course/enrollment.py:886
+#, python-format
+msgid "Error in line %(lineno)d: %(error_type)s: %(error)s"
+msgstr ""
+
+#: course/enrollment.py:976
+msgid ""
+"Permissions for this participant in addition to those granted by their role"
+msgstr ""
+
+#: course/enrollment.py:986
+msgid "Approve"
+msgstr ""
+
+#: course/enrollment.py:989
+msgid "Deny"
+msgstr ""
+
+#: course/enrollment.py:1002 tests/test_enrollment.py:103
+msgid "This user has not confirmed his/her email."
+msgstr ""
+
+#: course/enrollment.py:1069 tests/test_enrollment.py:95
+msgid "Changes saved."
+msgstr ""
+
+#: course/enrollment.py:1093 tests/test_enrollment.py:84
+msgid "Successfully denied."
+msgstr ""
+
+#: course/enrollment.py:1103 tests/test_enrollment.py:85
+msgid "Successfully dropped."
+msgstr ""
+
+#: course/enrollment.py:1106
+#, python-format
+msgid ""
+"A data integrity issue was detected when saving this participation. Maybe a "
+"participation for this user already exists? (%s)"
+msgstr ""
+
+#: course/enrollment.py:1118
+msgid "Edit Participation"
+msgstr ""
+
+#: course/exam.py:96
+msgid "Select participant for whom ticket is to be issued."
+msgstr ""
+
+#: course/exam.py:112 course/exam.py:303 course/models.py:1868
+#: course/models.py:1884
+msgid "Exam"
+msgstr ""
+
+#: course/exam.py:115 course/exam.py:306
+msgid "Start validity"
+msgstr ""
+
+#: course/exam.py:120 course/exam.py:311
+msgid "End validity"
+msgstr ""
+
+#: course/exam.py:125 course/exam.py:316 course/models.py:1915
+msgid "Restrict to facility"
+msgstr ""
+
+#: course/exam.py:126 course/exam.py:317
+msgid "If not blank, the exam ticket may only be used in the given facility"
+msgstr ""
+
+#: course/exam.py:131
+msgid "Revoke prior exam tickets for this user"
+msgstr ""
+
+#: course/exam.py:138
+msgid "Issue ticket"
+msgstr ""
+
+#: course/exam.py:159
+msgid "User is not enrolled in course."
+msgstr ""
+
+#: course/exam.py:187
+#, python-format
+msgid ""
+"Ticket issued for <b>%(participation)s</b>. The ticket code is <b>"
+"%(ticket_code)s</b>."
+msgstr ""
+
+#: course/exam.py:199
+msgid "Issue Exam Ticket"
+msgstr ""
+
+#: course/exam.py:216 course/exam.py:261
+msgctxt "ticket code required to login exam"
+msgid "Code"
+msgstr ""
+
+#: course/exam.py:239
+msgid "Instructions for {{ ticket.exam.description }}"
+msgstr ""
+
+#: course/exam.py:243
+msgid ""
+"These are personalized instructions for {{ ticket.participation.user."
+"get_full_name }}."
+msgstr ""
+
+#: course/exam.py:246
+msgid ""
+"If this is not you, please let the proctor know so that you can get the "
+"correct set of instructions."
+msgstr ""
+
+#: course/exam.py:249
+msgid ""
+"Please sit down at your workstation and open a browser at this location:"
+msgstr ""
+
+#: course/exam.py:252
+msgid "Exam URL"
+msgstr ""
+
+#: course/exam.py:254
+msgid ""
+"You should see boxes prompting for your user name and a one-time check-in "
+"code."
+msgstr ""
+
+#: course/exam.py:257
+msgid "Enter the following information"
+msgstr ""
+
+#: course/exam.py:259 course/exam.py:520
+msgid "User name"
+msgstr ""
+
+#: course/exam.py:263
+msgid "You have one hour to complete the exam."
+msgstr ""
+
+#: course/exam.py:265
+msgid "Good luck!"
+msgstr ""
+
+#: course/exam.py:284
+msgid ""
+"Enter <a href=\"http://documen.tician.de/relate/content.html#relate-markup"
+"\">RELATE markup</a> containing Django template statements to render your "
+"exam tickets. <tt>tickets</tt> contains a list of data structures containing "
+"ticket information. For each entry <tt>tkt</tt>  in this list, use "
+"<tt>{{ tkt.participation.user.user_name }}</tt>, <tt>{{ tkt.code }}</tt>, "
+"<tt>{{ tkt.exam.description }}</tt>, and <tt>{{ checkin_uri }}</tt> as "
+"placeholders. See the example for how to use this."
+msgstr ""
+
+#: course/exam.py:322
+msgid "Ticket Format"
+msgstr ""
+
+#: course/exam.py:328
+msgid "Revoke prior exam tickets"
+msgstr ""
+
+#: course/exam.py:335
+msgid "Issue tickets"
+msgstr ""
+
+#: course/exam.py:341
+msgid "may not batch-issue tickets"
+msgstr ""
+
+#: course/exam.py:399 course/exam.py:407
+msgid "Template rendering failed"
+msgstr ""
+
+#: course/exam.py:413
+#, python-format
+msgid "%d tickets issued."
+msgstr ""
+
+#: course/exam.py:421
+msgid "Batch-Issue Exam Tickets"
+msgstr ""
+
+#: course/exam.py:449
+msgid "User name or ticket code not recognized."
+msgstr ""
+
+#: course/exam.py:455
+msgid "Ticket is not in usable state. (Has it been revoked?)"
+msgstr ""
+
+#: course/exam.py:465
+msgid "Ticket has exceeded its validity period."
+msgstr ""
+
+#: course/exam.py:468
+msgid "Exam is not active."
+msgstr ""
+
+#: course/exam.py:471
+msgid "Exam has not started yet."
+msgstr ""
+
+#: course/exam.py:476
+msgid "Exam has ended."
+msgstr ""
+
+#: course/exam.py:483
+#, python-format
+msgid "Exam ticket requires presence in facility '%s'."
+msgstr ""
+
+#: course/exam.py:489
+msgid "Exam ticket is not yet valid."
+msgstr ""
+
+#: course/exam.py:494
+msgid "Exam ticket has expired."
+msgstr ""
+
+#: course/exam.py:496
+msgid "Ticket is valid."
+msgstr ""
+
+#: course/exam.py:523
+msgid "This is typically your full email address."
+msgstr ""
+
+#: course/exam.py:524
+msgid "Code"
+msgstr ""
+
+#: course/exam.py:526
+msgid ""
+"This is not your password, but a code that was given to you by a staff "
+"member. If you do not have one, please follow the link above to log in."
+msgstr ""
+
+#: course/exam.py:534
+msgid "Check in"
+msgstr ""
+
+#: course/exam.py:597 course/templates/course/exam-check-in.html:7
+msgid "Check in for Exam"
+msgstr ""
+
+#: course/exam.py:689
+msgid ""
+"Access to flows in an exams-only facility is only granted if the flow is "
+"locked down. To do so, add 'lock_down_as_exam_session' to your flow's access "
+"permissions."
+msgstr ""
+
+#: course/exam.py:716
+msgid "Error while processing exam lockdown: flow session not found."
+msgstr ""
+
+#: course/exam.py:777
+msgid ""
+"Your RELATE session is currently locked down to this exam flow. Navigating "
+"to other parts of RELATE is not currently allowed. To exit this exam, log "
+"out."
+msgstr ""
+
+#: course/flow.py:327
+msgid "cannot grade ungraded answer"
+msgstr ""
+
+#: course/flow.py:969
+msgid "Can't end a session that's already ended"
+msgstr ""
+
+#: course/flow.py:1017
+msgid "Can't expire a session that's not in progress"
+msgstr ""
+
+#: course/flow.py:1019
+msgid "Can't expire an anonymous flow session"
+msgstr ""
+
+#: course/flow.py:1071
+#, python-format
+msgid "invalid expiration mode '%(mode)s' on flow session ID %(session_id)d"
+msgstr ""
+
+#. Translators: grade flow: calculating grade.
+#: course/flow.py:1108
+#, python-format
+msgid "Counted at %(percent).1f%% of %(point).1f points"
+msgstr ""
+
+#: course/flow.py:1199
+msgid "Cannot reopen a session that's already in progress"
+msgstr ""
+
+#: course/flow.py:1202
+msgid "Cannot reopen anonymous sessions"
+msgstr ""
+
+#: course/flow.py:1210
+#, python-format
+msgid ""
+"Session reopened at %(now)s, previous completion time was "
+"'%(complete_time)s'."
+msgstr ""
+
+#: course/flow.py:1313
+#, python-format
+msgid "Session regraded at %(time)s."
+msgstr ""
+
+#: course/flow.py:1333
+msgid "cannot recalculate grade on in-progress session"
+msgstr ""
+
+#: course/flow.py:1343
+#, python-format
+msgid "Session grade recomputed at %(time)s."
+msgstr ""
+
+#: course/flow.py:1506
+msgid "new session not allowed"
+msgstr ""
+
+#: course/flow.py:1613
+msgid "may not view other people's sessions"
+msgstr ""
+
+#: course/flow.py:1697
+msgid "Save answer"
+msgstr "解答を保存"
+
+#: course/flow.py:1704
+msgid "Submit answer for feedback"
+msgstr ""
+
+#: course/flow.py:1709
+msgid "Submit final answer"
+msgstr "最終解答を提出"
+
+#: course/flow.py:1718
+msgid "Save answer and move on"
+msgstr ""
+
+#: course/flow.py:1726
+msgid "Save answer and finish"
+msgstr ""
+
+#: course/flow.py:1770
+msgid ""
+"No in-progress session record found for this flow. Redirected to flow start "
+"page."
+msgstr ""
+
+#: course/flow.py:1825
+msgid "not allowed to view flow"
+msgstr ""
+
+#: course/flow.py:1885
+#, python-format
+msgid "Viewing prior submission dated %(date)s. "
+msgstr ""
+
+#: course/flow.py:1894 course/templates/course/flow-confirm-completion.html:63
+msgid "Go back"
+msgstr "戻る"
+
+#: course/flow.py:1943 course/grading.py:249
+msgid ""
+"The page data stored in the database was found to be invalid for the page as "
+"given in the course content. Likely the course content was changed in an "
+"incompatible way (say, by adding an option to a choice question) without "
+"changing the question ID. The precise error encountered was the following: "
+msgstr ""
+
+#: course/flow.py:1988
+msgid ""
+"Changes to this session are being prevented because this session yields a "
+"permanent grade, but you have not completed your enrollment process in this "
+"course."
+msgstr ""
+
+#: course/flow.py:2138
+msgid "could not find which button was pressed"
+msgstr ""
+
+#: course/flow.py:2165
+msgid "Answer submission not allowed."
+msgstr ""
+
+#: course/flow.py:2174
+msgid "Already have final answer."
+msgstr "既に最終解答が提出されています"
+
+#: course/flow.py:2196
+msgid "Answer saved."
+msgstr "解答を保存しました"
+
+#: course/flow.py:2285
+msgid "Failed to submit answer."
+msgstr "解答を提出できませんでした"
+
+#: course/flow.py:2411
+#, python-format
+msgid "Interaction request from %(username)s"
+msgstr ""
+
+#: course/flow.py:2433
+msgid "Email sent, and notice that you will also receive a copy of the email."
+msgstr ""
+
+#: course/flow.py:2445
+msgid "Send interaction email"
+msgstr ""
+
+#: course/flow.py:2456
+#, python-format
+msgid "Your questions about page %s . "
+msgstr ""
+
+#: course/flow.py:2457
+msgid ""
+"Notice that <strong>only</strong> questions for that page will be answered."
+msgstr ""
+
+#: course/flow.py:2460
+msgid "Message"
+msgstr ""
+
+#: course/flow.py:2463
+msgid "Send Email"
+msgstr ""
+
+#: course/flow.py:2471
+msgid "At least 20 characters are required for submission."
+msgstr ""
+
+#: course/flow.py:2482 course/flow.py:2515
+msgid "only POST allowed"
+msgstr ""
+
+#: course/flow.py:2488 course/flow.py:2523
+msgid "may only change your own flow sessions"
+msgstr ""
+
+#: course/flow.py:2492
+msgid "invalid bookmark state"
+msgstr ""
+
+#: course/flow.py:2526
+msgid "may only change in-progress flow sessions"
+msgstr ""
+
+#: course/flow.py:2531
+msgid "invalid expiration mode"
+msgstr ""
+
+#: course/flow.py:2614
+msgid "odd POST parameters"
+msgstr ""
+
+#: course/flow.py:2618
+msgid "Cannot end a session that's already ended"
+msgstr ""
+
+#: course/flow.py:2622
+msgid "not permitted to end session"
+msgstr ""
+
+#. Translators: displayed format of Participation: some user in some
+#. course as some role
+#: course/flow.py:2668 course/models.py:507
+#, python-format
+msgid "%(user)s in %(course)s as %(role)s"
+msgstr ""
+
+#: course/flow.py:2679
+#, python-format
+msgid "Submission by %(participation_desc)s"
+msgstr ""
+
+#: course/flow.py:2773
+msgid ""
+"If non-empty, limit the regrading to sessions started under this access "
+"rules tag."
+msgstr ""
+
+#: course/flow.py:2775 course/models.py:868
+msgid "Access rules tag"
+msgstr ""
+
+#: course/flow.py:2779
+msgid "Regrade in-progress and not-in-progress sessions"
+msgstr ""
+
+#: course/flow.py:2781
+msgid "Regrade in-progress sessions only"
+msgstr ""
+
+#: course/flow.py:2783
+msgid "Regrade not-in-progress sessions only"
+msgstr ""
+
+#: course/flow.py:2785
+msgid "Regraded session in progress"
+msgstr ""
+
+#: course/flow.py:2788 course/templates/course/gradebook-single.html:279
+msgid "Regrade"
+msgstr ""
+
+#: course/flow.py:2795 course/grades.py:443
+msgid "may not batch-regrade flows"
+msgstr ""
+
+#: course/flow.py:2825
+msgid ""
+"This regrading process is only intended for flows that donot show up in the "
+"grade book. If you would like to regradefor-credit flows, use the "
+"corresponding functionality in the grade book."
+msgstr ""
+
+#: course/flow.py:2830
+msgid "Regrade not-for-credit Flow Sessions"
+msgstr ""
+
+#: course/flow.py:2845
+msgid "Re-allow changes"
+msgstr ""
+
+#: course/flow.py:2846 course/templates/course/flow-confirm-completion.html:73
+#: course/templates/course/flow-start.html:140
+#: relate/templates/sign-out-confirmation.html:8
+msgid "Cancel"
+msgstr "キャンセル"
+
+#: course/flow.py:2897
+msgid "No prior answers found that could be un-submitted."
+msgstr ""
+
+#: course/flow.py:2907
+msgid "Flow page changes reallowed. "
+msgstr ""
+
+#: course/flow.py:2915
+msgid "Re-allow Changes to Flow Page"
+msgstr ""
+
+#: course/flow.py:2950 course/flow.py:2979
+msgid "Purge Page View Data"
+msgstr "ページ閲覧情報の削除"
+
+#: course/grades.py:78
+msgid "must be enrolled to view grades"
+msgstr ""
+
+#: course/grades.py:89 course/grades.py:844
+msgid "may not view other people's grades"
+msgstr ""
+
+#: course/grades.py:162 course/grades.py:182 course/grades.py:279
+#: course/grades.py:398 course/grading.py:102 course/grading.py:104
+#: course/grading.py:144
+msgid "may not view grade book"
+msgstr ""
+
+#: course/grades.py:301
+msgid "may not batch-export grades"
+msgstr ""
+
+#: course/grades.py:360
+msgid "Session tag"
+msgstr ""
+
+#: course/grades.py:364
+msgid ""
+"Only act on in-progress sessions that are past their access rule's due date "
+"(applies to 'expire')"
+msgstr ""
+
+#. Translators: see help text above.
+#: course/grades.py:367
+msgid "Past due only"
+msgstr ""
+
+#: course/grades.py:370
+msgid "Impose deadline (Expire sessions)"
+msgstr ""
+
+#: course/grades.py:374
+msgid "Regrade ended sessions"
+msgstr ""
+
+#: course/grades.py:376
+msgid "Recalculate grades of ended sessions"
+msgstr ""
+
+#: course/grades.py:403
+msgid "opportunity from wrong course"
+msgstr ""
+
+#: course/grades.py:433
+msgid "may not impose deadline"
+msgstr ""
+
+#: course/grades.py:438
+msgid "may not batch-end flows"
+msgstr ""
+
+#: course/grades.py:449
+msgid "may not batch-recalculate grades"
+msgstr ""
+
+#: course/grades.py:452 course/views.py:618 course/views.py:645
+#: course/views.py:692
+msgid "invalid operation"
+msgstr ""
+
+#: course/grades.py:656 course/views.py:983
+msgid "Set access rules tag"
+msgstr ""
+
+#: course/grades.py:661
+msgid "Re-allow changes to already-submitted questions"
+msgstr ""
+
+#: course/grades.py:665 course/models.py:1297 course/models.py:1351
+#: course/models.py:1554 course/views.py:1069
+msgid "Comment"
+msgstr ""
+
+#: course/grades.py:669 course/templates/course/flow-page.html:122
+#: course/templates/course/gradebook-single.html:299
+msgid "Reopen"
+msgstr ""
+
+#: course/grades.py:678
+msgid "may not reopen session"
+msgstr ""
+
+#: course/grades.py:698
+msgid "Cannot reopen a session that's already in progress."
+msgstr ""
+
+#: course/grades.py:714
+#, python-format
+msgid ""
+"Session reopened at %(now)s by %(user)s, previous completion time was "
+"'%(completion_time)s': %(comment)s."
+msgstr ""
+
+#: course/grades.py:739
+msgid "Reopen session"
+msgstr ""
+
+#: course/grades.py:825
+msgid "participation does not match course"
+msgstr ""
+
+#: course/grades.py:835
+msgid "This grade is not shown in the grade book."
+msgstr ""
+
+#: course/grades.py:838
+msgid "This grade is not shown in the student grade book."
+msgstr ""
+
+#: course/grades.py:850
+msgid "grade has not been released"
+msgstr ""
+
+#: course/grades.py:864
+msgid "unknown action"
+msgstr ""
+
+#: course/grades.py:887
+msgid "Session deadline imposed."
+msgstr ""
+
+#: course/grades.py:897
+msgid "Session ended."
+msgstr ""
+
+#: course/grades.py:906
+msgid "Session regraded."
+msgstr ""
+
+#: course/grades.py:915
+msgid "Session grade recalculated."
+msgstr ""
+
+#: course/grades.py:918
+msgid "invalid session operation"
+msgstr ""
+
+#: course/grades.py:924 course/grades.py:1328 course/utils.py:1119
+#: course/utils.py:1143 course/versioning.py:579
+msgctxt "Starting of Error message"
+msgid "Error"
+msgstr ""
+
+#: course/grades.py:1025
+#, python-format
+msgid ""
+"Click to <a href='%s' target='_blank'>create</a> a new grading opportunity. "
+"Reload this form when done."
+msgstr ""
+
+#: course/grades.py:1029
+msgctxt "Field name in Import grades form"
+msgid "Grading opportunity"
+msgstr "問題集"
+
+#: course/grades.py:1034 course/models.py:1545
+msgid "Attempt ID"
+msgstr ""
+
+#: course/grades.py:1036
+msgid "File"
+msgstr ""
+
+#: course/grades.py:1040
+msgid "CSV with Header"
+msgstr ""
+
+#: course/grades.py:1043
+msgid "Format"
+msgstr "形式"
+
+#: course/grades.py:1047
+msgid "Email or NetID"
+msgstr ""
+
+#: course/grades.py:1051
+msgid "User attribute"
+msgstr ""
+
+#. Translators: the following strings are for the format
+#. informatioin for a CSV file to be imported.
+#: course/grades.py:1056
+msgid ""
+"1-based column index for the user attribute selected above to locate student "
+"record"
+msgstr ""
+
+#: course/grades.py:1059
+msgid "User attribute column"
+msgstr ""
+
+#: course/grades.py:1061
+msgid "1-based column index for the (numerical) grade"
+msgstr ""
+
+#: course/grades.py:1063
+msgid "Points column"
+msgstr ""
+
+#: course/grades.py:1065
+msgid "1-based column index for further (textual) feedback"
+msgstr ""
+
+#: course/grades.py:1067
+msgid "Feedback column"
+msgstr ""
+
+#. Translators: "Max point" refers to full credit in points.
+#: course/grades.py:1071 course/models.py:1141 course/models.py:1551
+msgid "Max points"
+msgstr ""
+
+#: course/grades.py:1073 course/sandbox.py:99
+#: course/templates/course/course-base.html:171
+#: course/templates/course/grade-import-preview.html:15
+#: course/versioning.py:499
+msgid "Preview"
+msgstr "プレビュー"
+
+#: course/grades.py:1074
+msgid "Import"
+msgstr "インポート"
+
+#: course/grades.py:1084
+#, python-format
+msgid "\"%s\" as a prefix is not allowed"
+msgstr ""
+
+#: course/grades.py:1136
+#, python-format
+msgid "no participant found with %(user_attr)s '%(user_attr_str)s'"
+msgstr ""
+
+#: course/grades.py:1139
+#, python-format
+msgid "more than one participant found with %(user_attr)s '%(user_attr_str)s'"
+msgstr ""
+
+#. Translators: use id_string to find user (participant).
+#: course/grades.py:1173
+#, python-format
+msgid "no participant found for '%(id_string)s'"
+msgstr ""
+
+#: course/grades.py:1177
+#, python-format
+msgid "more than one participant found for '%(id_string)s'"
+msgstr ""
+
+#: course/grades.py:1225
+#, python-format
+msgid "Unknown user attribute '%(attr_type)s'"
+msgstr ""
+
+#: course/grades.py:1262 course/templates/course/grade-flow-page.html:452
+msgid "points"
+msgstr ""
+
+#: course/grades.py:1264
+msgid "max_points"
+msgstr ""
+
+#: course/grades.py:1266
+msgid "comment"
+msgstr ""
+
+#: course/grades.py:1272
+msgid "updated"
+msgstr ""
+
+#: course/grades.py:1293
+msgid "may not batch-import grades"
+msgstr ""
+
+#: course/grades.py:1336
+#, python-format
+msgid "%(total)d grades found, %(unchaged)d unchanged."
+msgstr ""
+
+#: course/grades.py:1350
+#, python-format
+msgid "%d grades imported."
+msgstr ""
+
+#: course/grades.py:1363
+msgid "Import Grade Data"
+msgstr "成績情報のインポート"
+
+#: course/grades.py:1384
+msgid "Least recent attempt"
+msgstr ""
+
+#: course/grades.py:1385
+msgid "Most recent attempt"
+msgstr ""
+
+#: course/grades.py:1386
+msgid "All attempts"
+msgstr ""
+
+#: course/grades.py:1388
+msgid "Attempts to include."
+msgstr ""
+
+#: course/grades.py:1390
+msgid "Every submission to the page counts as an attempt."
+msgstr ""
+
+#: course/grades.py:1394
+msgid "Only download sessions tagged with this rules tag."
+msgstr ""
+
+#: course/grades.py:1395
+msgid "Restrict to rules tag"
+msgstr ""
+
+#: course/grades.py:1399
+msgid "Only download submissions from non-in-progress sessions"
+msgstr ""
+
+#: course/grades.py:1401
+msgid "Non-in-progress only"
+msgstr ""
+
+#: course/grades.py:1405
+msgid "Include provided feedback as text file in zip"
+msgstr ""
+
+#: course/grades.py:1406
+msgid "Include feedback"
+msgstr ""
+
+#: course/grades.py:1408
+msgid "Additional File"
+msgstr ""
+
+#: course/grades.py:1410
+msgid ""
+"If given, the uploaded file will be included in the zip archive. If the "
+"produced archive is to be used for plagiarism detection, then this may be "
+"used to include the reference solution."
+msgstr ""
+
+#: course/grades.py:1418
+msgid "Download"
+msgstr ""
+
+#: course/grades.py:1424 course/im.py:162
+msgid "may not batch-download submissions"
+msgstr ""
+
+#: course/grades.py:1437 course/grades.py:1441
+msgid "ALL"
+msgstr ""
+
+#: course/grades.py:1576
+msgid "Download All Submissions in Zip file"
+msgstr ""
+
+#: course/grades.py:1645
+msgid "Edit Grading Opportunity"
+msgstr "問題集の編集"
+
+#: course/grading.py:150
+msgid "Flow session not part of specified course"
+msgstr ""
+
+#: course/grading.py:153
+msgid "Cannot grade anonymous session"
+msgstr ""
+
+#: course/grading.py:277
+msgid "may not assign grades"
+msgstr ""
+
+#: course/grading.py:333 course/templates/course/flow-page.html:193
+msgid "Submit"
+msgstr ""
+
+#: course/grading.py:439
+msgid "may not view grader stats"
+msgstr ""
+
+#: course/im.py:57
+msgctxt "Instant message"
+msgid "Message"
+msgstr ""
+
+#. Translators: literals in this file are about
+#. the instant messaging function.
+#: course/im.py:69
+msgctxt "Send instant messages"
+msgid "Send"
+msgstr ""
+
+#: course/im.py:147
+msgid "unable to connect"
+msgstr ""
+
+#: course/im.py:169
+msgid "Instant messaging is not enabled for this course."
+msgstr ""
+
+#: course/im.py:175
+msgid "Recipient is <span class='label label-success'>Online</span>."
+msgstr ""
+
+#: course/im.py:178
+msgid "Recipient is <span class='label label-danger'>Offline</span>."
+msgstr ""
+
+#: course/im.py:192
+msgid "no recipient XMPP ID"
+msgstr ""
+
+#: course/im.py:195
+msgid "no XMPP password"
+msgstr ""
+
+#: course/im.py:207
+msgid "An error occurred while sending the message. Sorry."
+msgstr ""
+
+#: course/im.py:211
+msgid "Message sent."
+msgstr ""
+
+#: course/im.py:220 course/templates/course/course-base.html:34
+msgid "Send instant message"
+msgstr ""
+
+#: course/models.py:86
+#, python-format
+msgid ""
+"'%s' is currently not supported as a course specific language at this site."
+msgstr ""
+
+#: course/models.py:92
+msgid ""
+"A course identifier. Alphanumeric with dashes, no spaces. This is visible in "
+"URLs and determines the location on your file system where the course's git "
+"repository lives. This should <em>not</em> be changed after the course has "
+"been created without also moving the course's git on the server."
+msgstr ""
+
+#: course/models.py:97
+msgid "Course identifier"
+msgstr "コース識別子"
+
+#: course/models.py:103 course/models.py:1452
+msgid "Identifier may only contain letters, numbers, and hypens ('-')."
+msgstr ""
+
+#: course/models.py:110
+msgid "Course name"
+msgstr "コース名"
+
+#: course/models.py:111
+msgid "A human-readable name for the course. (e.g. 'Numerical Methods')"
+msgstr ""
+
+#: course/models.py:116
+msgid "Course number"
+msgstr "コース番号"
+
+#: course/models.py:117
+msgid "A human-readable course number/ID for the course (e.g. 'CS123')"
+msgstr ""
+
+#: course/models.py:122
+msgid "Time Period"
+msgstr "期間"
+
+#: course/models.py:123
+msgid ""
+"A human-readable description of the time period for the course (e.g. 'Fall "
+"2014')"
+msgstr ""
+
+#: course/models.py:127
+msgid "Start date"
+msgstr "開始日"
+
+#: course/models.py:130
+msgid "End date"
+msgstr "終了日"
+
+#: course/models.py:135
+msgid "Is the course only accessible to course staff?"
+msgstr ""
+
+#: course/models.py:136
+msgid "Only visible to course staff"
+msgstr "このコースはスタッフだけが閲覧できるようにする"
+
+#: course/models.py:139
+msgid "Should the course be listed on the main page?"
+msgstr ""
+
+#: course/models.py:140
+msgid "Listed on main page"
+msgstr "メインページに掲載"
+
+#: course/models.py:143
+msgid "Accepts enrollment"
+msgstr "登録を受け入れる"
+
+#: course/models.py:146
+msgid ""
+"A Git URL from which to pull course updates. If you're just starting out, "
+"enter <tt>git://github.com/inducer/relate-sample</tt> to get some sample "
+"content."
+msgstr ""
+
+#: course/models.py:150
+msgid "git source"
+msgstr ""
+
+#: course/models.py:152
+msgid ""
+"An SSH private key to use for Git authentication. Not needed for the sample "
+"URL above.You may use <a href='/generate-ssh-key'>this tool</a> to generate "
+"a key pair."
+msgstr ""
+
+#: course/models.py:156
+msgid "SSH private key"
+msgstr "SSH 秘密鍵"
+
+#: course/models.py:159
+msgid ""
+"Subdirectory <em>within</em> the git repository to use as course root "
+"directory. Not required, and usually blank. Use only if your course content "
+"lives in a subdirectory of your git repository. Should not include trailing "
+"slash."
+msgstr ""
+
+#: course/models.py:164
+msgid "Course root in repository"
+msgstr ""
+
+#: course/models.py:168
+msgid ""
+"Name of a YAML file in the git repository that contains the root course "
+"descriptor."
+msgstr ""
+
+#: course/models.py:170
+msgid "Course file"
+msgstr ""
+
+#: course/models.py:173
+msgid ""
+"Name of a YAML file in the git repository that contains calendar information."
+msgstr ""
+
+#: course/models.py:175 course/validation.py:1403
+msgid "Events file"
+msgstr ""
+
+#: course/models.py:179
+msgid "If set, each enrolling student must be individually approved."
+msgstr ""
+
+#: course/models.py:181
+msgid "Enrollment approval required"
+msgstr "登録の承認が必要"
+
+#: course/models.py:184
+msgid ""
+"If set, students cannot get participation preapproval using institutional ID "
+"if the institutional ID they provided is not verified."
+msgstr ""
+
+#: course/models.py:188
+msgid "Prevent preapproval by institutional ID if not verified?"
+msgstr ""
+
+#: course/models.py:192
+msgid ""
+"Enrollee's email addresses must end in the specified suffix, such as "
+"'@illinois.edu'."
+msgstr ""
+
+#: course/models.py:194
+msgid "Enrollment required email suffix"
+msgstr "登録を許可するメールアドレスサフィックス"
+
+#. Translators: replace "RELATE" with the brand name of your
+#. website if necessary.
+#: course/models.py:199
+msgid ""
+"This email address will be used in the 'From' line of automated emails sent "
+"by RELATE."
+msgstr ""
+
+#: course/models.py:201
+msgid "From email"
+msgstr ""
+
+#: course/models.py:204
+msgid "This email address will receive notifications about the course."
+msgstr ""
+
+#: course/models.py:206
+msgid "Notify email"
+msgstr "通知先メールアドレス"
+
+#: course/models.py:212
+msgid "Which language is forced to be used for this course."
+msgstr ""
+
+#: course/models.py:213
+msgid "Course language forcibly used"
+msgstr ""
+
+#: course/models.py:218
+msgid ""
+"(Required only if the instant message feature is desired.) The Jabber/XMPP "
+"ID (JID) the course will use to sign in to an XMPP server."
+msgstr ""
+
+#: course/models.py:221
+msgid "Course xmpp ID"
+msgstr ""
+
+#: course/models.py:223
+msgid ""
+"(Required only if the instant message feature is desired.) The password to "
+"go with the JID above."
+msgstr ""
+
+#: course/models.py:225
+msgid "Course xmpp password"
+msgstr ""
+
+#: course/models.py:228
+msgid ""
+"(Required only if the instant message feature is desired.) The JID to which "
+"instant messages will be sent."
+msgstr ""
+
+#: course/models.py:230
+msgid "Recipient xmpp ID"
+msgstr ""
+
+#: course/models.py:236 course/models.py:843
+msgid "Active git commit SHA"
+msgstr ""
+
+#: course/models.py:243
+msgid "Courses"
+msgstr "コース"
+
+#: course/models.py:294
+msgid "Kind of event"
+msgstr ""
+
+#. Translators: ordinal of event of the same kind
+#: course/models.py:297
+msgid "Ordinal of event"
+msgstr ""
+
+#: course/models.py:299 course/models.py:799 course/models.py:847
+#: course/templates/course/flow-start.html:23
+msgid "Start time"
+msgstr "開始日時"
+
+#: course/models.py:301 course/models.py:801
+msgid "End time"
+msgstr ""
+
+#: course/models.py:307
+msgid "All day"
+msgstr ""
+
+#: course/models.py:313
+msgid "Event"
+msgstr "イベント"
+
+#: course/models.py:314
+msgid "Events"
+msgstr "イベント"
+
+#. Translators: name format of ParticipationTag
+#: course/models.py:337
+msgid "Format is lower-case-with-hyphens. Do not use spaces."
+msgstr ""
+
+#: course/models.py:339
+msgid "Name of participation tag"
+msgstr ""
+
+#: course/models.py:341
+msgid "Shown to pariticpant"
+msgstr ""
+
+#: course/models.py:352 course/models.py:395
+msgid "Name contains invalid characters."
+msgstr ""
+
+#: course/models.py:361
+msgid "Participation tag"
+msgstr ""
+
+#: course/models.py:362
+msgid "Participation tags"
+msgstr ""
+
+#: course/models.py:372
+msgid ""
+"A symbolic name for this role, used in course code. "
+"lower_case_with_underscores, no spaces. May be any string. The name "
+"'unenrolled' is special and refers to anyone not enrolled in the course."
+msgstr ""
+
+#: course/models.py:376
+msgid "Role identifier"
+msgstr ""
+
+#: course/models.py:378
+msgid "A human-readable description of this role."
+msgstr ""
+
+#: course/models.py:379
+msgid "Role name"
+msgstr ""
+
+#: course/models.py:382
+msgid "Is default role for new participants"
+msgstr ""
+
+#: course/models.py:384
+msgid "Is default role for unenrolled users"
+msgstr ""
+
+#: course/models.py:398
+#, python-format
+msgid "%(identifier)s in %(course)s"
+msgstr ""
+
+#: course/models.py:432
+msgid "Participation role"
+msgstr ""
+
+#: course/models.py:433
+msgid "Participation roles"
+msgstr ""
+
+#: course/models.py:441 course/models.py:1322
+msgid "Permission"
+msgstr ""
+
+#: course/models.py:444
+msgid "Argument"
+msgstr ""
+
+#: course/models.py:461 course/templates/course/participation-table.html:17
+msgid "Role"
+msgstr ""
+
+#: course/models.py:465
+msgid "Participation role permission"
+msgstr ""
+
+#: course/models.py:466
+msgid "Participation role permissions"
+msgstr ""
+
+#: course/models.py:472 course/models.py:744
+#: course/templates/course/gradebook-by-opp.html:118
+#: course/templates/course/gradebook-participant.html:27
+#: course/templates/course/gradebook.html:18
+#: course/templates/course/participation-table.html:6
+msgid "User ID"
+msgstr ""
+
+#: course/models.py:478
+msgid "Enroll time"
+msgstr ""
+
+#: course/models.py:480 course/models.py:581
+msgid "Role (unused)"
+msgstr ""
+
+#: course/models.py:486
+msgid "Participation status"
+msgstr ""
+
+#: course/models.py:491
+msgid "Multiplier for time available on time-limited flows"
+msgstr ""
+
+#: course/models.py:493
+msgid "Time factor"
+msgstr ""
+
+#: course/models.py:497
+msgid "Preview git commit SHA"
+msgstr ""
+
+#: course/models.py:500 course/templates/course/gradebook-participant.html:45
+#: course/templates/course/participation-table.html:21
+msgid "Tags"
+msgstr ""
+
+#: course/models.py:502 course/page/base.py:944
+msgid "Notes"
+msgstr ""
+
+#: course/models.py:518 course/models.py:564 course/models.py:747
+#: course/models.py:834 course/models.py:1265 course/models.py:1341
+#: course/models.py:1532 course/models.py:1821 course/models.py:1887
+#: course/templates/course/course-base.html:147
+msgid "Participation"
+msgstr ""
+
+#: course/models.py:519
+msgid "Participations"
+msgstr ""
+
+#: course/models.py:568
+msgid "Participation permission"
+msgstr ""
+
+#: course/models.py:569
+msgid "Participation permissionss"
+msgstr ""
+
+#: course/models.py:586 course/models.py:1283 course/models.py:1346
+#: course/models.py:1560 course/models.py:1890
+msgid "Creator"
+msgstr ""
+
+#: course/models.py:588 course/models.py:757 course/models.py:1285
+#: course/models.py:1348 course/models.py:1473 course/models.py:1892
+msgid "Creation time"
+msgstr ""
+
+#. Translators: somebody's email in some course in Participation
+#. Preapproval
+#: course/models.py:594
+#, python-format
+msgid "Email %(email)s in %(course)s"
+msgstr ""
+
+#. Translators: somebody's Institutional ID in some course in
+#. Participation Preapproval
+#: course/models.py:599
+#, python-format
+msgid "Institutional ID %(inst_id)s in %(course)s"
+msgstr ""
+
+#: course/models.py:606
+msgid "Participation preapproval"
+msgstr ""
+
+#: course/models.py:607
+msgid "Participation preapprovals"
+msgstr ""
+
+#: course/models.py:705
+msgid "Instructor"
+msgstr "講師"
+
+#: course/models.py:709
+msgid "Teaching Assistant"
+msgstr ""
+
+#: course/models.py:713
+msgid "Student"
+msgstr ""
+
+#: course/models.py:718
+msgid "Unenrolled"
+msgstr ""
+
+#: course/models.py:750
+msgid "Restrict to role"
+msgstr ""
+
+#: course/models.py:754 course/models.py:1847
+#: course/templates/course/manage-auth-tokens.html:25
+msgid "Description"
+msgstr ""
+
+#: course/models.py:759
+msgid "Last use time"
+msgstr ""
+
+#: course/models.py:762 course/templates/course/manage-auth-tokens.html:27
+msgid "Valid until"
+msgstr ""
+
+#: course/models.py:765
+msgid "Revocation time"
+msgstr ""
+
+#: course/models.py:769
+msgid "A hash of the authentication token to be used for direct git access."
+msgstr ""
+
+#: course/models.py:772
+msgid "Hash of git authentication token"
+msgstr ""
+
+#: course/models.py:775
+#, python-format
+msgid "Token %(id)d for %(participation)s: %(description)s"
+msgstr ""
+
+#: course/models.py:784
+msgid "Authentication token"
+msgstr ""
+
+#: course/models.py:785
+msgid "Authentication tokens"
+msgstr "認証トークン"
+
+#: course/models.py:803
+msgid "Cancelled"
+msgstr ""
+
+#: course/models.py:806
+msgid "Instant flow request"
+msgstr ""
+
+#: course/models.py:807 course/templates/course/course-base.html:157
+msgid "Instant flow requests"
+msgstr ""
+
+#: course/models.py:810
+#, python-format
+msgid "Instant flow request for %(flow_id)s in %(course)s at %(start_time)s"
+msgstr ""
+
+#: course/models.py:849
+msgid "Completion time"
+msgstr ""
+
+#: course/models.py:851
+msgid "Page count"
+msgstr ""
+
+#: course/models.py:859
+msgid "Page data at course revision"
+msgstr ""
+
+#: course/models.py:861
+msgid "Page set-up data is up-to date for this revision of the course material"
+msgstr ""
+
+#: course/models.py:865
+msgid "In progress"
+msgstr ""
+
+#: course/models.py:872 course/templates/course/gradebook-single.html:170
+msgid "Expiration mode"
+msgstr ""
+
+#: course/models.py:881 course/models.py:1549
+#: course/templates/course/gradebook-single.html:230
+msgid "Points"
+msgstr ""
+
+#: course/models.py:884
+msgid "Max point"
+msgstr ""
+
+#: course/models.py:886
+msgid "Result comment"
+msgstr ""
+
+#: course/models.py:889 course/models.py:954 course/models.py:1017
+#: course/models.py:1566 course/templates/course/grade-flow-page.html:77
+msgid "Flow session"
+msgstr ""
+
+#: course/models.py:890 course/templates/course/gradebook-single.html:135
+msgid "Flow sessions"
+msgstr ""
+
+#: course/models.py:895
+#, python-format
+msgid "anonymous session %(session_id)d on '%(flow_id)s'"
+msgstr ""
+
+#: course/models.py:899
+#, python-format
+msgid "%(user)s's session %(session_id)d on '%(flow_id)s'"
+msgstr ""
+
+#: course/models.py:956
+msgid "Page ordinal"
+msgstr ""
+
+#: course/models.py:961
+msgid "Page type as indicated in course content"
+msgstr ""
+
+#: course/models.py:965
+msgid "Group ID"
+msgstr ""
+
+#: course/models.py:972
+msgid "Data"
+msgstr ""
+
+#: course/models.py:974
+msgid "Page Title"
+msgstr ""
+
+#: course/models.py:977
+msgid ""
+"A user-facing 'marking' feature to allow participants to easily return to "
+"pages that still need their attention."
+msgstr ""
+
+#: course/models.py:979
+msgid "Bookmarked"
+msgstr ""
+
+#: course/models.py:982 course/models.py:983
+msgid "Flow page data"
+msgstr ""
+
+#: course/models.py:987
+#, python-format
+msgid ""
+"Data for page '%(group_id)s/%(page_id)s' (page ordinal %(page_ordinal)s) in "
+"%(flow_session)s"
+msgstr ""
+
+#: course/models.py:1020 course/models.py:1194
+msgid "Page data"
+msgstr ""
+
+#: course/models.py:1022
+msgid "Visit time"
+msgstr ""
+
+#: course/models.py:1024
+msgid "Remote address"
+msgstr ""
+
+#: course/models.py:1031
+msgid "Impersonated by"
+msgstr ""
+
+#: course/models.py:1034
+msgid ""
+"Synthetic flow page visits are generated for unvisited pages once a flow is "
+"finished. This is needed since grade information is attached to a visit, and "
+"it needs a place to go."
+msgstr ""
+
+#: course/models.py:1038
+msgid "Is synthetic"
+msgstr ""
+
+#. Translators: "Answer" is a Noun.
+#: course/models.py:1044 course/page/code.py:71 course/page/text.py:103
+msgid "Answer"
+msgstr "解答"
+
+#. Translators: determine whether the answer is a final,
+#. submitted answer fit for grading.
+#: course/models.py:1057
+msgid "Is submitted answer"
+msgstr ""
+
+#. Translators: flow page visit
+#: course/models.py:1062
+#, python-format
+msgid "'%(group_id)s/%(page_id)s' in '%(session)s' on %(time)s"
+msgstr ""
+
+#. Translators: flow page visit: if an answer is
+#. provided by user then append the string.
+#: course/models.py:1072
+msgid " (with answer)"
+msgstr ""
+
+#: course/models.py:1080
+msgid "Flow page visit"
+msgstr ""
+
+#: course/models.py:1081
+msgid "Flow page visits"
+msgstr ""
+
+#: course/models.py:1116
+msgid "Visit"
+msgstr ""
+
+#: course/models.py:1120 course/templates/course/gradebook-single.html:232
+msgid "Grader"
+msgstr ""
+
+#: course/models.py:1122 course/models.py:1562
+msgid "Grade time"
+msgstr ""
+
+#: course/models.py:1126
+msgid "Graded at git commit SHA"
+msgstr ""
+
+#: course/models.py:1131
+msgid "Grade data"
+msgstr ""
+
+#. Translators: max point in grade
+#: course/models.py:1139
+msgid "Point value of this question when receiving full credit."
+msgstr ""
+
+#. Translators: correctness in grade
+#: course/models.py:1144
+msgid ""
+"Real number between zero and one (inclusively) indicating the degree of "
+"correctness of the answer."
+msgstr ""
+
+#: course/models.py:1146
+msgid "Correctness"
+msgstr ""
+
+#. Translators: "Feedback" stands for the feedback of answers.
+#: course/models.py:1157 course/templates/course/grade-import-preview.html:21
+msgid "Feedback"
+msgstr ""
+
+#: course/models.py:1172
+msgid "Flow page visit grade"
+msgstr ""
+
+#: course/models.py:1173
+msgid "Flow page visit grades"
+msgstr ""
+
+#. Translators: return the information of the grade of a user
+#. by percentage.
+#: course/models.py:1183
+#, python-format
+msgid "grade of %(visit)s: %(percentage)s"
+msgstr ""
+
+#: course/models.py:1196 course/templates/course/grade-import-preview.html:20
+#: course/templates/course/gradebook-participant.html:60
+#: course/templates/course/gradebook-single.html:76
+msgid "Grade"
+msgstr "成績"
+
+#: course/models.py:1201
+msgid "Bulk feedback"
+msgstr ""
+
+#: course/models.py:1239
+msgid "stipulations must be a dictionary"
+msgstr ""
+
+#: course/models.py:1244
+msgid "unrecognized keys in stipulations"
+msgstr ""
+
+#: course/models.py:1250
+msgid "credit_percent must be a float"
+msgstr ""
+
+#: course/models.py:1256
+msgid "'allowed_session_count' must be a non-negative integer"
+msgstr ""
+
+#: course/models.py:1269 course/models.py:1343
+msgid "Expiration"
+msgstr ""
+
+#. Translators: help text for stipulations in FlowAccessException
+#. (deprecated)
+#: course/models.py:1274
+msgid ""
+"A dictionary of the same things that can be added to a flow access rule, "
+"such as allowed_session_count or credit_percent. If not specified here, "
+"values will default to the stipulations in the course content."
+msgstr ""
+
+#: course/models.py:1280
+msgid "Stipulations"
+msgstr ""
+
+#. Translators: deprecated
+#: course/models.py:1290
+msgid ""
+"Check if a flow started under this exception rule set should stay under this "
+"rule set until it is expired."
+msgstr ""
+
+#. Translators: deprecated
+#: course/models.py:1294
+msgid "Is sticky"
+msgstr ""
+
+#. Translators: flow access exception in admin (deprecated)
+#: course/models.py:1302
+#, python-format
+msgid "Access exception for '%(user)s' to '%(flow_id)s' in '%(course)s'"
+msgstr ""
+
+#: course/models.py:1319
+msgid "Exception"
+msgstr ""
+
+#. Translators: FlowAccessExceptionEntry (deprecated)
+#: course/models.py:1326
+msgid "Flow access exception entries"
+msgstr ""
+
+#: course/models.py:1355
+msgid "Kind"
+msgstr ""
+
+#: course/models.py:1357
+msgid "Rule"
+msgstr ""
+
+#: course/models.py:1360
+msgctxt "Is the flow rule exception activated?"
+msgid "Active"
+msgstr ""
+
+#. Translators: For FlowRuleException
+#: course/models.py:1365
+#, python-format
+msgid "%(kind)s exception for '%(user)s' to '%(flow_id)s'in '%(course)s'"
+msgstr ""
+
+#: course/models.py:1381
+msgid "grading rules may not expire"
+msgstr ""
+
+#: course/models.py:1424
+msgid "invalid rule kind: "
+msgstr ""
+
+#: course/models.py:1428
+msgid "invalid existing_session_rules: "
+msgstr ""
+
+#: course/models.py:1431
+msgid "Flow rule exception"
+msgstr ""
+
+#: course/models.py:1432
+msgid "Flow rule exceptions"
+msgstr ""
+
+#. Translators: format of identifier for GradingOpportunity
+#: course/models.py:1445
+msgid "A symbolic name for this grade. lower_case_with_underscores, no spaces."
+msgstr ""
+
+#: course/models.py:1447
+msgid "Grading opportunity ID"
+msgstr "問題集ID"
+
+#. Translators: name for GradingOpportunity
+#: course/models.py:1457
+msgid "A human-readable identifier for the grade."
+msgstr ""
+
+#: course/models.py:1458
+msgid "Grading opportunity name"
+msgstr "問題集名"
+
+#: course/models.py:1460
+msgid "Flow identifier that this grading opportunity is linked to, if any"
+msgstr ""
+
+#. Translators: strategy on how the grading of mutiple sessioins
+#. are aggregated.
+#: course/models.py:1468 course/templates/course/gradebook-by-opp.html:31
+#: course/templates/course/gradebook-opp-list.html:27
+#: course/templates/course/gradebook-single.html:123
+msgid "Aggregation strategy"
+msgstr ""
+
+#: course/models.py:1471 course/models.py:1557
+#: course/templates/course/gradebook-opp-list.html:28 course/views.py:1041
+msgid "Due time"
+msgstr ""
+
+#: course/models.py:1476
+msgid "Shown in grade book"
+msgstr ""
+
+#: course/models.py:1478
+msgid "Shown in student grade book"
+msgstr ""
+
+#: course/models.py:1480
+msgid "Result shown in student grade book"
+msgstr ""
+
+#: course/models.py:1483
+msgid "Scores for individual pages are shown in the participants' grade book"
+msgstr ""
+
+#: course/models.py:1486
+msgid "Hide superseded grade history before"
+msgstr ""
+
+#: course/models.py:1489
+msgid ""
+"Grade changes dated before this date that are superseded by later grade "
+"changes will not be shown to participants. This can help avoid discussions "
+"about pre-release grading adjustments. May be blank. In that case, the "
+"entire grade history is shown."
+msgstr ""
+
+#: course/models.py:1498 course/models.py:1529
+msgid "Grading opportunity"
+msgstr "問題集"
+
+#: course/models.py:1499
+msgid "Grading opportunities"
+msgstr ""
+
+#. Translators: For GradingOpportunity
+#: course/models.py:1506
+#, python-format
+msgid "%(opportunity_name)s (%(opportunity_id)s) in %(course)s"
+msgstr ""
+
+#. Translators: something like 'status'.
+#: course/models.py:1537 course/templates/course/flow-start.html:24
+#: course/templates/course/gradebook-single.html:143
+#: course/templates/course/task-monitor.html:17
+msgid "State"
+msgstr "状態"
+
+#. Translators: help text of "attempt_id" in GradeChange class
+#: course/models.py:1542
+msgid ""
+"Grade changes are grouped by their 'attempt ID' where later grades with the "
+"same attempt ID supersede earlier ones."
+msgstr ""
+
+#: course/models.py:1569
+msgid "Grade change"
+msgstr ""
+
+#: course/models.py:1570
+msgid "Grade changes"
+msgstr ""
+
+#. Translators: information for GradeChange
+#: course/models.py:1575
+#, python-format
+msgid "%(participation)s %(state)s on %(opportunityname)s"
+msgstr ""
+
+#: course/models.py:1587
+msgid "Participation and opportunity must live in the same course"
+msgstr ""
+
+#: course/models.py:1651
+msgid "cannot accept grade once opportunity has been marked 'unavailable'"
+msgstr ""
+
+#: course/models.py:1655
+msgid "cannot accept grade once opportunity has been marked 'exempt'"
+msgstr ""
+
+#: course/models.py:1698
+#, python-format
+msgid "invalid grade change state '%s'"
+msgstr ""
+
+#: course/models.py:1744
+#, python-format
+msgid "invalid grade aggregation strategy '%s'"
+msgstr ""
+
+#. Translators: display the name of a flow
+#: course/models.py:1794 tests/factories.py:43
+#, python-format
+msgid "Flow: %(flow_desc_title)s"
+msgstr ""
+
+#: course/models.py:1823
+msgid "Text"
+msgstr ""
+
+#: course/models.py:1825 course/templates/course/gradebook-single.html:73
+#: course/views.py:375
+msgid "Time"
+msgstr ""
+
+#: course/models.py:1828
+msgid "Instant message"
+msgstr ""
+
+#: course/models.py:1829
+msgid "Instant messages"
+msgstr ""
+
+#: course/models.py:1852
+msgid "Active"
+msgstr ""
+
+#: course/models.py:1854
+msgid "Currently active, i.e. may be used to log in via an exam ticket"
+msgstr ""
+
+#: course/models.py:1857
+msgid "Listed"
+msgstr ""
+
+#: course/models.py:1859
+msgid "Shown in the list of current exams"
+msgstr ""
+
+#: course/models.py:1862
+msgid "No exams before"
+msgstr ""
+
+#: course/models.py:1865
+msgid "No exams after"
+msgstr ""
+
+#: course/models.py:1869 course/templates/course/course-base.html:88
+#: relate/templates/base.html:100
+msgid "Exams"
+msgstr ""
+
+#: course/models.py:1873
+#, python-format
+msgid "Exam  %(description)s in %(course)s"
+msgstr ""
+
+#: course/models.py:1894
+msgid "Usage time"
+msgstr ""
+
+#: course/models.py:1895
+msgid "Date and time of first usage of ticket"
+msgstr ""
+
+#: course/models.py:1900
+msgid "Exam ticket state"
+msgstr ""
+
+#: course/models.py:1905 course/models.py:1910
+msgid "End valid period"
+msgstr ""
+
+#: course/models.py:1906
+msgid ""
+"If not blank, date and time at which this exam ticket starts being valid/"
+"usable"
+msgstr ""
+
+#: course/models.py:1911
+msgid ""
+"If not blank, date and time at which this exam ticket stops being valid/"
+"usable"
+msgstr ""
+
+#: course/models.py:1916
+msgid "If not blank, this exam ticket may only be used in the given facility"
+msgstr ""
+
+#: course/models.py:1920
+msgid "Exam ticket"
+msgstr ""
+
+#: course/models.py:1921
+msgid "Exam tickets"
+msgstr ""
+
+#: course/models.py:1924
+msgid "Can issue exam tickets to student"
+msgstr ""
+
+#: course/models.py:1928
+#, python-format
+msgid "Exam  ticket for %(participation)s in %(exam)s"
+msgstr ""
+
+#: course/models.py:1941
+msgid "Participation and exam must live in the same course"
+msgstr ""
+
+#: course/page/base.py:178
+#, python-format
+msgid ""
+"'correctness' is invalid: expecting a value within [0, "
+"%(max_extra_credit_factor)s] or None, got %(invalid_value)s."
+msgstr ""
+
+#: course/page/base.py:194
+msgid "No information on correctness of answer."
+msgstr ""
+
+#: course/page/base.py:197
+msgid "Your answer is not correct."
+msgstr "不正解です"
+
+#: course/page/base.py:199
+msgid "Your answer is correct."
+msgstr "正解です！"
+
+#: course/page/base.py:203
+msgid "Your answer is correct and earned bonus points."
+msgstr ""
+
+#: course/page/base.py:209
+msgid "Your answer is mostly correct."
+msgstr "一部正解です！"
+
+#: course/page/base.py:215
+msgid "Your answer is somewhat correct. "
+msgstr ""
+
+#: course/page/base.py:391
+msgid "Not passing page_desc to PageBase.__init__ is deprecated"
+msgstr ""
+
+#: course/page/base.py:451
+#, python-format
+msgid "%s is using the make_page_data compatiblity hook, which is deprecated."
+msgstr ""
+
+#: course/page/base.py:562
+#, python-format
+msgid "%s is using the post_form compatiblity hook, which is deprecated."
+msgstr ""
+
+#: course/page/base.py:643
+#, python-format
+msgid ""
+"%s is using the update_grade_data_from_grading_form compatiblity hook, which "
+"is deprecated."
+msgstr ""
+
+#: course/page/base.py:768
+#, python-format
+msgid ""
+"PageBaseWithTitle subclass '%s' does not implement markdown_body_for_title()"
+msgstr ""
+
+#: course/page/base.py:779
+msgid "no title found in body or title attribute"
+msgstr ""
+
+#: course/page/base.py:805
+msgid "Attribute 'value' should be removed when 'is_optional_page' is True."
+msgstr ""
+
+#: course/page/base.py:891
+msgid "Grade assigned, in percent"
+msgstr ""
+
+#: course/page/base.py:897
+msgid "Grade percent"
+msgstr ""
+
+#: course/page/base.py:903
+#, python-format
+msgid ""
+"Grade assigned, as points out of %.1f. Fill out either this or 'grade "
+"percent'."
+msgstr ""
+
+#: course/page/base.py:911
+msgid "Grade points"
+msgstr ""
+
+#: course/page/base.py:917
+msgid ""
+"Feedback to be shown to student, using <a href='http://documen.tician.de/"
+"relate/content.html#relate-markup'>RELATE-flavored Markdown</a>"
+msgstr ""
+
+#: course/page/base.py:921
+msgid "Feedback text"
+msgstr ""
+
+#: course/page/base.py:924
+msgid ""
+"Checking this box and submitting the form will notify the participant with a "
+"generic message containing the feedback text"
+msgstr ""
+
+#: course/page/base.py:927
+msgid "Notify"
+msgstr ""
+
+#: course/page/base.py:930
+msgid "Allow recipient to reply to this email?"
+msgstr ""
+
+#: course/page/base.py:931
+msgid "May reply email to me"
+msgstr ""
+
+#: course/page/base.py:934
+msgid ""
+"Whether the grade and feedback are to be shown to student. (If you would "
+"like to release all grades at once, do not use this. Instead, use the 'shown "
+"to students' checkbox for this 'grading opportunity' in the grade book "
+"admin.)"
+msgstr ""
+
+#: course/page/base.py:939
+msgid "Released"
+msgstr ""
+
+#: course/page/base.py:942
+msgid "Internal notes, not shown to student"
+msgstr ""
+
+#: course/page/base.py:947
+msgid ""
+"Checking this box and submitting the form will notify the instructor with a "
+"generic message containing the notes"
+msgstr ""
+
+#: course/page/base.py:950
+msgid "Notify instructor"
+msgstr ""
+
+#: course/page/base.py:963 course/page/base.py:977
+msgid "Grade (percent) and Grade (points) disagree"
+msgstr ""
+
+#: course/page/base.py:1060
+msgid "New notification"
+msgstr ""
+
+#: course/page/base.py:1107
+#, python-format
+msgid "Grading notes from %(ta)s"
+msgstr ""
+
+#: course/page/base.py:1151 course/page/choice.py:366 course/page/choice.py:594
+#: course/page/code.py:600 course/page/code.py:1108 course/page/inline.py:912
+#: course/page/text.py:944
+msgid "No answer provided."
+msgstr ""
+
+#: course/page/base.py:1173
+msgid "The following feedback was provided"
+msgstr ""
+
+#. Translators: "choice" in Choice Answer Form in a single-choice question.
+#: course/page/choice.py:46
+msgid "Choice"
+msgstr "選択肢"
+
+#. Translators: "Choice" in Choice Answer Form in a multiple
+#. choice question in which multiple answers can be chosen.
+#: course/page/choice.py:57
+msgid "Select all that apply:"
+msgstr "該当するものを<b>全て</b>選択"
+
+#: course/page/choice.py:96
+#, python-format
+msgid "%(location)s: unable to convert to string"
+msgstr ""
+
+#: course/page/choice.py:121
+#, python-format
+msgid "%(location)s: more than one choice modes set: '%(modes)s'"
+msgstr ""
+
+#: course/page/choice.py:172
+#, python-format
+msgid "%(location)s, choice %(idx)d"
+msgstr ""
+
+#: course/page/choice.py:219
+msgid ""
+"existing choice permutation not suitable for number of choices in question"
+msgstr ""
+
+#: course/page/choice.py:312
+#, python-format
+msgid "one or more correct answer(s) expected, %(n_correct)d found"
+msgstr ""
+
+#: course/page/choice.py:322
+msgid "ChoiceQuestion does not allow any choices marked 'disregard'"
+msgstr ""
+
+#: course/page/choice.py:330
+msgid "ChoiceQuestion does not allow any choices marked 'always_correct'"
+msgstr ""
+
+#: course/page/choice.py:380 course/page/inline.py:879 course/page/text.py:44
+msgid "A correct answer is"
+msgstr "正答"
+
+#: course/page/choice.py:513
+msgid ""
+"'allow_partial_credit' or 'allow_partial_credit_subset_only' may not be "
+"specifiedat the same time as 'credit_mode'"
+msgstr ""
+
+#: course/page/choice.py:534
+msgid ""
+"'allow_partial_credit' and 'allow_partial_credit_subset_only' are not "
+"allowed to coexist when both attribute are 'True'"
+msgstr ""
+
+#: course/page/choice.py:546
+#, python-format
+msgid "unrecognized credit_mode '%(credit_mode)s'"
+msgstr ""
+
+#: course/page/choice.py:551
+msgid ""
+"'credit_mode' will be required on multi-select choice questions in a future "
+"version. set 'credit_mode: {}' to match current behavior."
+msgstr ""
+
+#: course/page/choice.py:664
+msgid "The correct answer is"
+msgstr "正答"
+
+#: course/page/choice.py:669
+msgid "Additional acceptable options are"
+msgstr ""
+
+#: course/page/choice.py:766 course/page/inline.py:421
+#, python-format
+msgid "choice %(idx)d: unable to convert to string"
+msgstr ""
+
+#: course/page/code.py:486
+#, python-format
+msgid "data file '%(file)s' not found"
+msgstr ""
+
+#: course/page/code.py:499
+msgid ""
+"code question does not explicitly allow multiple submission. Either add "
+"access_rules/add_permssions/change_answer or add 'single_submission: True' "
+"to confirm that you intend for only a single submission to be allowed. While "
+"you're at it, consider adding access_rules/add_permssions/see_correctness."
+msgstr ""
+
+#: course/page/code.py:706
+msgid "code question execution failed"
+msgstr ""
+
+#: course/page/code.py:711
+msgid "<unknown flow>"
+msgstr ""
+
+#: course/page/code.py:726
+msgid ""
+"Both the grading code and the attempt to notify course staff about the issue "
+"failed. Please contact the course or site staff and inform them of this "
+"issue, mentioning this entire error message:"
+msgstr ""
+
+#: course/page/code.py:734
+msgid ""
+"Sending an email to the course staff about the following failure failed with "
+"the following error message:"
+msgstr ""
+
+#: course/page/code.py:740
+msgid "The original failure message follows:"
+msgstr ""
+
+#: course/page/code.py:757
+msgid ""
+"It looks like you submitted code that is identical to the reference "
+"solution. This is not allowed."
+msgstr ""
+
+#: course/page/code.py:776
+msgid ""
+"The grading code failed. Sorry about that. The staff has been informed, and "
+"if this problem is due to an issue with the grading code, it will be fixed "
+"as soon as possible. In the meantime, you'll see a traceback below that may "
+"help you figure out what went wrong."
+msgstr ""
+
+#: course/page/code.py:788
+#, python-format
+msgid ""
+"Your code took too long to execute. The problem specifies that your code may "
+"take at most %s seconds to run. It took longer than that and was aborted."
+msgstr ""
+
+#: course/page/code.py:800
+msgid "Your code failed to compile. An error message is below."
+msgstr ""
+
+#: course/page/code.py:808
+msgid "Your code failed with an exception. A traceback is below."
+msgstr ""
+
+#: course/page/code.py:822
+msgid "Here is some feedback on your code"
+msgstr ""
+
+#: course/page/code.py:831
+msgid "This is the exception traceback"
+msgstr ""
+
+#: course/page/code.py:844
+#, python-format
+msgid "Your code ran on %s."
+msgstr ""
+
+#: course/page/code.py:850
+msgid "Your code printed the following output"
+msgstr ""
+
+#: course/page/code.py:857
+msgid "Your code printed the following error messages"
+msgstr ""
+
+#: course/page/code.py:863
+msgid "Your code produced the following plots"
+msgstr ""
+
+#: course/page/code.py:873
+msgid "Figure"
+msgstr ""
+
+#: course/page/code.py:926
+msgid "(Non-string in 'HTML' output filtered out)"
+msgstr ""
+
+#: course/page/code.py:956
+msgid "The following code is a valid answer"
+msgstr ""
+
+#: course/page/code.py:1040
+msgid ""
+"'human_feedback_value' and 'human_feedback_percentage' are not allowed to "
+"coexist"
+msgstr ""
+
+#: course/page/code.py:1050
+msgid ""
+"expecting either 'human_feedback_value' or 'human_feedback_percentage', "
+"found neither."
+msgstr ""
+
+#: course/page/code.py:1057
+msgid ""
+"Used deprecated 'human_feedback_value' attribute--use "
+"'human_feedback_percentage' instead."
+msgstr ""
+
+#: course/page/code.py:1062
+msgid ""
+"'human_feedback_value' attribute is not allowed if value of question is 0, "
+"use 'human_feedback_percentage' instead"
+msgstr ""
+
+#: course/page/code.py:1069
+msgid "human_feedback_value greater than overall value of question"
+msgstr ""
+
+#: course/page/code.py:1077
+msgid "the value of human_feedback_percentage must be between 0 and 100"
+msgstr ""
+
+#: course/page/inline.py:135
+#, python-format
+msgid "unknown embedded question type '%(type)s'"
+msgstr ""
+
+#: course/page/inline.py:149
+msgid "must be struct"
+msgstr ""
+
+#: course/page/inline.py:236
+#, python-format
+msgid "unrecogonized width attribute string: '%(width_attr)s'"
+msgstr ""
+
+#: course/page/inline.py:247
+#, python-format
+msgid ""
+"unsupported length unit '%(length_unit)s', expected length unit can be "
+"%(allowed_length_unit)s"
+msgstr ""
+
+#: course/page/inline.py:292 course/page/text.py:909
+msgid "at least one answer must be provided"
+msgstr ""
+
+#. Translators: refers to optional
+#. correct answer for checking
+#. correctness sumbitted by students.
+#: course/page/inline.py:315
+msgid "answer"
+msgstr "解答"
+
+#: course/page/inline.py:325 course/page/text.py:924
+msgid "no matcher is able to provide a plain-text correct answer"
+msgstr ""
+
+#: course/page/inline.py:438
+#, python-format
+msgid ""
+"one or more correct answer(s) expected  for question '%(question_name)s', "
+"%(n_correct)d found"
+msgstr ""
+
+#: course/page/inline.py:675
+msgid "InlineMultiQuestion requires at least one answer field to be defined."
+msgstr ""
+
+#: course/page/inline.py:686
+#, python-format
+msgid "invalid answers name %s. "
+msgstr ""
+
+#: course/page/inline.py:687 course/page/inline.py:705
+msgid ""
+"A valid name should start with letters. Alphanumeric with underscores. Do "
+"not use spaces."
+msgstr ""
+
+#: course/page/inline.py:704
+#, python-format
+msgid "invalid embedded question name %s. "
+msgstr ""
+
+#: course/page/inline.py:722
+#, python-format
+msgid "embedded question name %s not unique."
+msgstr ""
+
+#: course/page/inline.py:733
+#, python-format
+msgid "correct answer(s) not provided for question %s."
+msgstr ""
+
+#: course/page/inline.py:741
+#, python-format
+msgid "redundant answers %s provided for non-existing question(s)."
+msgstr ""
+
+#: course/page/inline.py:774
+#, python-format
+msgid "have unpaired '%s'."
+msgstr ""
+
+#: course/page/text.py:158
+#, python-format
+msgid "page must be of type '%s'"
+msgstr ""
+
+#: course/page/text.py:181
+msgid "unknown validator type"
+msgstr ""
+
+#: course/page/text.py:191 course/page/text.py:607
+msgid "must be struct or string"
+msgstr ""
+
+#: course/page/text.py:290
+#, python-format
+msgid "regex '%(pattern)s' did not compile"
+msgstr ""
+
+#: course/page/text.py:346
+msgid "unable to check symbolic expression"
+msgstr ""
+
+#: course/page/text.py:450 course/page/text.py:461 course/page/text.py:479
+msgid "does not provide a valid float literal"
+msgstr ""
+
+#: course/page/text.py:468
+msgid "not allowed when 'value' is zero"
+msgstr ""
+
+#: course/page/text.py:484
+msgid ""
+"Float match for 'value' zero should have atol--otherwise it will match any "
+"number"
+msgstr ""
+
+#: course/page/text.py:496
+msgid ""
+"Float match should have either rtol or atol--otherwise it will match any "
+"number"
+msgstr ""
+
+#. Translators: a "matcher" is used to determine
+#. if the answer to text question (blank filling
+#. question) is correct.
+#: course/page/text.py:554
+#, python-format
+msgid "%(matcherclassname)s only accepts '%(matchertype)s' patterns"
+msgstr ""
+
+#: course/page/text.py:566
+#, python-format
+msgid "unknown match type '%(matchertype)s'"
+msgstr ""
+
+#: course/page/text.py:585
+msgid "does not specify match type"
+msgstr ""
+
+#: course/page/text.py:593
+msgid "uses deprecated 'matcher:answer' style"
+msgstr ""
+
+#: course/page/text.py:614
+msgid "matcher must supply 'type'"
+msgstr ""
+
+#: course/page/text.py:669
+msgid "unrecognized widget type"
+msgstr ""
+
+#: course/page/upload.py:47
+msgid "Uploaded file"
+msgstr ""
+
+#: course/page/upload.py:74
+#, python-format
+msgid ""
+"Please keep file size under %(allowedsize)s. Current filesize is "
+"%(uploadedsize)s."
+msgstr ""
+
+#: course/page/upload.py:81
+msgid "Uploaded file is not a PDF."
+msgstr ""
+
+#: course/page/upload.py:171
+msgid "unrecognized mime types"
+msgstr ""
+
+#: course/page/upload.py:181
+msgid "upload question does not have assigned point value"
+msgstr ""
+
+#: course/sandbox.py:88
+msgid "Press Alt/Cmd+(Shift+)P to preview."
+msgstr "Alt/Cmd+(Shift+)P を押すとプレビューが更新されます。"
+
+#: course/sandbox.py:91
+msgid "Content"
+msgstr ""
+
+#: course/sandbox.py:102 course/templates/course/grade-flow-page.html:335
+msgid "Clear"
+msgstr ""
+
+#: course/sandbox.py:119
+msgid ""
+"Enter <a href=\"http://documen.tician.de/relate/content.html#relate-markup"
+"\">RELATE markup</a>."
+msgstr "<a href=\"http://documen.tician.de/relate/content.html#relate-markup"
+"\">RELATEの記法</a>で入力してテストする事ができます。"
+
+#: course/sandbox.py:141
+msgid "Markup failed to render"
+msgstr ""
+
+#: course/sandbox.py:193
+msgid "Clear Response Data"
+msgstr "プレビューをクリア"
+
+#: course/sandbox.py:240
+msgid "Enter YAML markup for a flow page."
+msgstr "ページのYAMLを入力してテストする事ができます。"
+
+#: course/sandbox.py:279 course/sandbox.py:325
+msgid "Page failed to load/validate"
+msgstr ""
+
+#: course/sandbox.py:399
+msgid "Page failed to load/validate (change page ID to clear faults)"
+msgstr ""
+
+#: course/sandbox.py:411
+msgid "Submit answer"
+msgstr ""
+
+#: course/tasks.py:67
+#, python-format
+msgid "%d sessions expired."
+msgstr ""
+
+#: course/tasks.py:104
+#, python-format
+msgid "%d sessions ended."
+msgstr ""
+
+#: course/tasks.py:135
+#, python-format
+msgid "Grades recalculated for %d sessions."
+msgstr ""
+
+#: course/tasks.py:169
+#, python-format
+msgid "%d sessions regraded."
+msgstr ""
+
+#: course/tasks.py:181
+#, python-format
+msgid "%d page views purged."
+msgstr ""
+
+#: course/templates/course/analytics-flow.html:5
+#: course/templates/course/analytics-flows.html:5
+#: course/templates/course/analytics-page.html:5
+#: course/templates/course/analytics-page.html:9
+msgid "Analytics"
+msgstr ""
+
+#: course/templates/course/analytics-flow.html:9
+#, python-format
+msgid " Analytics: <tt>%(flow_identifier)s</tt> "
+msgstr ""
+
+#: course/templates/course/analytics-flow.html:11
+msgid "Grade Distribution"
+msgstr ""
+
+#. Translators: the following are the options when showing attempts of particiants in
+#. grade analytics.
+#.
+#: course/templates/course/analytics-flow.html:19
+#: course/templates/course/analytics-page.html:23
+msgid "Showing results for <i>only the first attempt</i> by each participant."
+msgstr ""
+
+#: course/templates/course/analytics-flow.html:23
+#: course/templates/course/analytics-page.html:27
+msgid "Show all attempts"
+msgstr ""
+
+#: course/templates/course/analytics-flow.html:26
+#: course/templates/course/analytics-page.html:30
+msgid "Showing results for <i>all attempts</i> by each participant."
+msgstr ""
+
+#: course/templates/course/analytics-flow.html:28
+#: course/templates/course/analytics-page.html:32
+msgid "Show only the first attempt"
+msgstr ""
+
+#: course/templates/course/analytics-flow.html:33
+#, python-format
+msgid "%(weight)s grade"
+msgid_plural "%(weight)s grades"
+msgstr[0] ""
+msgstr[1] ""
+
+#: course/templates/course/analytics-flow.html:39
+#, python-format
+msgid "(from %(participant_count)s distinct participant)"
+msgid_plural "(from %(participant_count)s distinct participants)"
+msgstr[0] ""
+msgstr[1] ""
+
+#: course/templates/course/analytics-flow.html:49
+msgid "Page-by-Page Statistics"
+msgstr ""
+
+#: course/templates/course/analytics-flow.html:61
+#, python-format
+msgid "(%(answer_count)s non-empty response,"
+msgid_plural "(%(answer_count)s non-empty responses,"
+msgstr[0] ""
+msgstr[1] ""
+
+#: course/templates/course/analytics-flow.html:66
+#, python-format
+msgid "%(total_count)s response total)"
+msgid_plural "%(total_count)s responses total)"
+msgstr[0] ""
+msgstr[1] ""
+
+#: course/templates/course/analytics-flow.html:93
+msgid "Time Distribution"
+msgstr ""
+
+#: course/templates/course/analytics-flows.html:9
+msgid "Analytics: List of Flows with Sessions"
+msgstr ""
+
+#: course/templates/course/analytics-flows.html:21
+msgid " No flow sessions have been recorded."
+msgstr ""
+
+#: course/templates/course/analytics-page.html:15
+msgid "Answer Distribution"
+msgstr ""
+
+#: course/templates/course/analytics-page.html:42
+#, python-format
+msgid "(%(astats_count)s response)"
+msgid_plural "(%(astats_count)s responses)"
+msgstr[0] ""
+msgstr[1] ""
+
+#: course/templates/course/broken-code-question-email.txt:1
+#, python-format
+msgid ""
+"Hi there,\n"
+"This message was sent from %(site)s at %(time)s.\n"
+"Bad news! A code question with ID '%(page_id)s' in '%(course_identifier)s' "
+"has just failed while a user was trying to get his or her code graded.\n"
+"Details of the problem are below:\n"
+"%(error_message)s\n"
+msgstr ""
+
+#: course/templates/course/broken-code-question-email.txt:9
+msgid "You can navigate to the following url to check the problem:"
+msgstr ""
+
+#: course/templates/course/calendar.html:8
+#: course/templates/course/calendar.html:21
+#: course/templates/course/course-base.html:130
+msgid "Calendar"
+msgstr "カレンダー"
+
+#: course/templates/course/calendar.html:42
+msgid ""
+"<b>Note:</b> Some calendar entries are clickable and link to entries below."
+msgstr ""
+
+#. Translators: The following are names for menu items in course page
+#: course/templates/course/course-base.html:31
+msgctxt "menu item"
+msgid "Participant"
+msgstr "参加者"
+
+#: course/templates/course/course-base.html:37
+msgid "View grades"
+msgstr "成績表"
+
+#: course/templates/course/course-base.html:40
+msgid "View calendar"
+msgstr "カレンダー"
+
+#: course/templates/course/course-base.html:42
+msgid "Back to course page"
+msgstr "コースページに戻る"
+
+#: course/templates/course/course-base.html:45
+#: course/templates/course/manage-auth-tokens.html:7
+#: course/templates/course/manage-auth-tokens.html:11
+msgid "Manage Authentication Tokens"
+msgstr "認証トークンの管理"
+
+#: course/templates/course/course-base.html:53
+msgctxt "menu item"
+msgid "Grading"
+msgstr "採点"
+
+#: course/templates/course/course-base.html:56
+msgid "Analytics Overview"
+msgstr ""
+
+#: course/templates/course/course-base.html:61
+msgid "Grade Book"
+msgstr "成績表"
+
+#: course/templates/course/course-base.html:62
+#: course/templates/course/gradebook-participant-list.html:7
+#: course/templates/course/gradebook-participant-list.html:15
+msgid "List of Participants"
+msgstr "参加者一覧"
+
+#: course/templates/course/course-base.html:63
+#: course/templates/course/gradebook-opp-list.html:8
+#: course/templates/course/gradebook-opp-list.html:16
+msgid "List of Grading Opportunities"
+msgstr ""
+
+#: course/templates/course/course-base.html:64
+#: course/templates/course/gradebook-by-opp.html:8
+#: course/templates/course/gradebook-by-opp.html:17
+#: course/templates/course/gradebook-single.html:5
+#: course/templates/course/gradebook.html:5
+#: course/templates/course/gradebook.html:13
+msgid "Grade book"
+msgstr "成績一覧"
+
+#: course/templates/course/course-base.html:66
+msgid "Grade book (CSV export)"
+msgstr "成績一覧 (CSV出力)"
+
+#: course/templates/course/course-base.html:70
+msgid "Import Grades"
+msgstr "成績情報のインポート"
+
+#: course/templates/course/course-base.html:74
+msgid "Regrade flows"
+msgstr ""
+
+#: course/templates/course/course-base.html:79
+msgid "Exceptions"
+msgstr ""
+
+#: course/templates/course/course-base.html:80
+#: course/templates/course/flow-page.html:130
+#: course/templates/course/gradebook-single.html:312
+#: course/templates/course/gradebook-single.html:328
+msgid "Grant exception"
+msgstr ""
+
+#: course/templates/course/course-base.html:82
+msgid "Show exceptions"
+msgstr ""
+
+#: course/templates/course/course-base.html:90
+msgid "Edit exams"
+msgstr ""
+
+#: course/templates/course/course-base.html:93
+msgid "Batch-issue exam tickets"
+msgstr ""
+
+#: course/templates/course/course-base.html:103
+msgctxt "menu item"
+msgid "Content"
+msgstr "コンテンツ"
+
+#: course/templates/course/course-base.html:107
+msgid "Retrieve/preview new course revisions"
+msgstr "コース内容の更新"
+
+#: course/templates/course/course-base.html:111
+msgid "Edit course"
+msgstr "コース編集"
+
+#: course/templates/course/course-base.html:115
+msgid "Content creation"
+msgstr "コンテンツ作成補助ツール"
+
+#: course/templates/course/course-base.html:117
+msgid "Page sandbox"
+msgstr "ページ サンドボックス"
+
+#: course/templates/course/course-base.html:120
+msgid "Markup sandbox"
+msgstr "マークアップ サンドボックス"
+
+#: course/templates/course/course-base.html:125
+msgid "Test flow"
+msgstr ""
+
+#: course/templates/course/course-base.html:132
+msgid "Edit events"
+msgstr "イベントの編集"
+
+#: course/templates/course/course-base.html:145
+msgctxt "menu item"
+msgid "Instructor"
+msgstr "講師"
+
+#: course/templates/course/course-base.html:149
+msgctxt "menu item"
+msgid "Preapprove enrollments"
+msgstr ""
+
+#: course/templates/course/course-base.html:152
+msgctxt "menu item"
+msgid "Query participations"
+msgstr ""
+
+#: course/templates/course/course-base.html:158
+msgid "Manage instant flow requests"
+msgstr ""
+
+#: course/templates/course/course-base.html:181
+msgid "There is an interactive activity going on right now."
+msgstr ""
+
+#: course/templates/course/course-base.html:185
+#: course/templates/course/course-base.html:192
+msgid "Go to activity"
+msgstr ""
+
+#: course/templates/course/course-base.html:188
+msgid "There are some interactive activities going on right now."
+msgstr ""
+
+#: course/templates/course/course-page.html:8
+msgid "This course is only visible to course staff at the moment."
+msgstr ""
+
+#: course/templates/course/course-page.html:10
+msgctxt "change the visibility of a course"
+msgid "Change"
+msgstr ""
+
+#: course/templates/course/course-page.html:15
+msgid "You're not currently signed in."
+msgstr ""
+
+#: course/templates/course/course-page.html:26
+msgid "Enroll"
+msgstr "コースに登録する"
+
+#: course/templates/course/enrollment-decision-email.txt:1
+#: course/templates/course/grade-notify.txt:1
+#: course/templates/course/sign-in-email.txt:1
+#, python-format27.133.129.98
+msgid "Dear %(username)s,"
+msgstr ""
+
+#: course/templates/course/enrollment-decision-email.txt:3
+#, python-format
+msgid ""
+"Welcome! Your request to join the course '%(course_identifier)s' has been "
+"approved.\n"
+"Find the course web page here:\n"
+"%(course_uri)s\n"
+"Welcome, and we hope you have a productive class!"
+msgstr ""
+
+#: course/templates/course/enrollment-decision-email.txt:8
+#, python-format
+msgid ""
+"We're sorry to let you know that your request to join the course "
+"'%(course_identifier)s' has been denied. Please get in touch with the course "
+"staff (for example by replying to this email) to state your case.\n"
+"One common reason for this may be that you may have used your personal email "
+"(such as a GMail or Yahoo account) rather than your official university "
+"account to sign in. If that is the case, please use the official account and "
+"try again."
+msgstr ""
+
+#: course/templates/course/enrollment-decision-email.txt:12
+#: course/templates/course/enrollment-request-email.txt:8
+#: course/templates/course/sign-in-email.txt:11
+#: course/templates/course/submit-notify.txt:8
+#, python-format
+msgid "%(relate_site_name)s staff"
+msgstr ""
+
+#: course/templates/course/enrollment-request-email.txt:1
+#, python-format
+msgid ""
+"Dear course staff of %(course_identifier)s,\n"
+"\n"
+"User '%(user)s' has requested permission to enroll in your course. Please go "
+"to\n"
+"%(admin_uri)s\n"
+"to approve or deny the request. To do so, select the course participations "
+"in question and use the \"Approve enrollment\" or \"Deny enrollment\" admin\n"
+"actions.\n"
+msgstr ""
+
+#: course/templates/course/exam-check-in.html:12
+#, python-format
+msgid ""
+"If you have a not been issued an exam ticket by your instructor, please <a "
+"href=\"%(relate-sign_in_choice)s\">use a different method to sign in</a> "
+"instead."
+msgstr ""
+
+#: course/templates/course/feedback-code-with-human.html:4
+#: course/templates/course/gradebook-by-opp.html:130
+#: course/templates/course/gradebook-single.html:117
+msgid "Overall grade"
+msgstr ""
+
+#: course/templates/course/feedback-code-with-human.html:7
+#, python-format
+msgid "The overall grade is %(percentage)s%%."
+msgstr ""
+
+#: course/templates/course/feedback-code-with-human.html:16
+msgid "Autograder feedback"
+msgstr ""
+
+#: course/templates/course/feedback-code-with-human.html:20
+#, python-format
+msgid "The autograder assigned %(feedback_points)s/%(points)s points."
+msgstr ""
+
+#: course/templates/course/feedback-code-with-human.html:33
+msgid "Human feedback"
+msgstr ""
+
+#: course/templates/course/feedback-code-with-human.html:37
+#, python-format
+msgid "The human grader assigned %(feedback_points)s/%(human_points)s points."
+msgstr ""
+
+#: course/templates/course/file-upload-form.html:8
+msgid "Review uploaded file"
+msgstr ""
+
+#: course/templates/course/file-upload-form.html:10
+msgid "Embed viewer"
+msgstr ""
+
+#: course/templates/course/file-upload-form.html:21
+#, python-format
+msgid ""
+" Your browser reported itself unable to render <tt>%(mime_type)s</tt> "
+"inline. "
+msgstr ""
+
+#: course/templates/course/flow-completion-grade.html:13
+#: course/templates/course/flow-start.html:81
+msgid "Results"
+msgstr "結果"
+
+#. Translators: the following 5 blocks of literals make a sentence. PartI
+#: course/templates/course/flow-completion-grade.html:18
+msgid "You have"
+msgstr ""
+
+#. Translators: PartII
+#: course/templates/course/flow-completion-grade.html:21
+msgid "(so far)"
+msgstr ""
+
+#. Translators: PartIII
+#: course/templates/course/flow-completion-grade.html:24
+#, python-format
+msgid "achieved <b>%(provisional_points)s</b> out of %(max_points)s points."
+msgstr ""
+
+#. Translators: PartIV
+#: course/templates/course/flow-completion-grade.html:31
+msgid "(Some questions are not graded yet, so your grade will likely change.)"
+msgstr ""
+
+#. Translators: PartV
+#: course/templates/course/flow-completion-grade.html:37
+#, python-format
+msgid "(That's <b>%(points_percent)s%%</b>.)"
+msgstr ""
+
+#: course/templates/course/flow-completion-grade.html:54
+#, python-format
+msgid ""
+"You have answered %(fully_correct_count)s grading questions correctly, "
+"%(partially_correct_count)s questions partially correctly, and "
+"%(incorrect_count)s questions incorrectly."
+msgstr ""
+
+#: course/templates/course/flow-completion-grade.html:61
+#, python-format
+msgid "The grade for %(unknown_count)s questions is not yet known."
+msgstr ""
+
+#: course/templates/course/flow-completion-grade.html:79
+#, python-format
+msgid ""
+"There are %(total_count)s optional questions (not for grading). You have "
+"answered %(fully_correct_count)s correctly, %(partially_correct_count)s "
+"partially correctly, and %(incorrect_count)s incorrectly."
+msgstr ""
+
+#: course/templates/course/flow-completion-grade.html:86
+#, python-format
+msgid ""
+"The correctness for %(unknown_count)s optional questions is not yet known."
+msgstr ""
+
+#: course/templates/course/flow-completion-grade.html:111
+#: course/templates/course/flow-completion.html:15
+msgid "Back to start page"
+msgstr "開始画面へ戻る"
+
+#: course/templates/course/flow-confirm-completion.html:10
+msgid "End Session"
+msgstr ""
+
+#: course/templates/course/flow-confirm-completion.html:15
+msgid "You have left the following question(s) unanswered:"
+msgstr "次の問題が未解答です:"
+
+#: course/templates/course/flow-confirm-completion.html:33
+#, python-format
+msgid "There were %(required_count)s grading questions."
+msgstr "%(required_count)s 個の問題がありました。"
+
+#: course/templates/course/flow-confirm-completion.html:37
+msgid "You have provided an answer for all of them."
+msgstr ""
+
+#: course/templates/course/flow-confirm-completion.html:41
+#, python-format
+msgid ""
+"You have answered %(answered_count)s and left %(unanswered_count)s "
+"unanswered."
+msgstr "そのうち %(answered_count)s 個が解答済み、 %(unanswered_count)s 個が未解答となっています。"
+
+#: course/templates/course/flow-confirm-completion.html:48
+msgid "If you choose to end your session, the following things will happen:"
+msgstr "終了する場合は、以下に注意してください。"
+
+#: course/templates/course/flow-confirm-completion.html:50
+msgid "You will be prevented from making further changes to your answers."
+msgstr "解答に変更を加える事が出来なくなります。"
+
+#: course/templates/course/flow-confirm-completion.html:52
+msgid ""
+"All your currently saved answers, if not graded already, will be graded."
+msgstr "まだ提出していない保存済み解答も全て採点されます。"
+
+#: course/templates/course/flow-confirm-completion.html:53
+msgid ""
+"If possible, a final grade will be computed from all saved, graded answers."
+msgstr "可能な限り、全ての採点済み解答から最終得点を決定します。"
+
+#: course/templates/course/flow-confirm-completion.html:67
+#: course/templates/course/flow-confirm-completion.html:82
+msgid "Confirm: Submit answers and end session"
+msgstr "提出および終了"
+
+#: course/templates/course/flow-confirm-completion.html:71
+msgid "Are you sure you will submit this session with questions unanswered?"
+msgstr "未解答の問題がありますが、本当に提出しますか？"
+
+#. Translators: student should confirm to start another session.
+#: course/templates/course/flow-confirm-completion.html:78
+#: course/templates/course/flow-start.html:146
+msgid "I am sure"
+msgstr "実行する"
+
+#: course/templates/course/flow-page-interaction-email.txt:1
+#, python-format
+msgid ""
+"Hi there,\n"
+"I have some question with the flow page with ID \"%(page_id)s\" in flow "
+"\"%(flow_session_id)s\" of  \"%(course_identifier)s\". Details of the "
+"question follows:\n"
+"-------------------------------------------------------------------\n"
+"%(question_text)s\n"
+"-------------------------------------------------------------------\n"
+"Click here to review the question in the flow page:\n"
+"%(review_uri)s\n"
+"\n"
+msgstr ""
+
+#: course/templates/course/flow-page.html:22
+msgid "Viewing session for participant"
+msgstr ""
+
+#: course/templates/course/flow-page.html:26
+msgid "(unspecified participant)"
+msgstr ""
+
+#: course/templates/course/flow-page.html:46
+#: course/templates/course/flow-page.html:51
+msgctxt "Previous page/item in a flow"
+msgid "Previous page"
+msgstr ""
+
+#: course/templates/course/flow-page.html:57
+#: course/templates/course/flow-page.html:62
+msgctxt "Next page/item in a flow"
+msgid "Next page"
+msgstr ""
+
+#: course/templates/course/flow-page.html:71
+msgid "Boomark this page"
+msgstr ""
+
+#: course/templates/course/flow-page.html:90
+msgid "Send an email about this page to course staff"
+msgstr ""
+
+#: course/templates/course/flow-page.html:105
+msgid "Page Menu"
+msgstr ""
+
+#: course/templates/course/flow-page.html:114
+msgid "Return to flow start page"
+msgstr "開始画面へ戻る"
+
+#: course/templates/course/flow-page.html:138
+msgid "View in grading interface"
+msgstr ""
+
+#: course/templates/course/flow-page.html:147
+msgid "Re-allow changes to page"
+msgstr ""
+
+#: course/templates/course/flow-page.html:163
+msgid "Submission history for this page"
+msgstr ""
+
+#: course/templates/course/flow-page.html:190
+msgid "Go to end"
+msgstr ""
+
+#: course/templates/course/flow-page.html:195
+#, python-format
+msgid "Submit %(flow_title)s"
+msgstr ""
+
+#: course/templates/course/flow-page.html:197
+#: course/templates/course/flow-page.html:203
+msgid "Finish"
+msgstr ""
+
+#: course/templates/course/flow-page.html:201
+#: course/templates/course/flow-start.html:27
+#: course/templates/course/gradebook-single.html:145
+msgid "Result"
+msgstr "最終得点"
+
+#. Translators: the string is followed by "what will happen" at deadline.
+#: course/templates/course/flow-page.html:230
+msgid "At deadline:"
+msgstr ""
+
+#: course/templates/course/flow-page.html:308
+msgid "Session duration:"
+msgstr ""
+
+#: course/templates/course/flow-page.html:310
+msgid "minutes"
+msgstr ""
+
+#: course/templates/course/flow-page.html:313
+msgid "Time factor:"
+msgstr ""
+
+#: course/templates/course/flow-page.html:328
+#, python-format
+msgid "%(max_points)s point"
+msgid_plural "%(max_points)s points"
+msgstr[0] ""
+msgstr[1] ""
+
+#: course/templates/course/flow-page.html:336
+msgid "Optional question"
+msgstr ""
+
+#: course/templates/course/flow-page.html:356
+msgid "(You may still change your answer after you submit it.)"
+msgstr ""
+
+#: course/templates/course/flow-page.html:436
+msgid "You have unsaved changes on this page."
+msgstr ""
+
+#: course/templates/course/flow-page.html:507
+msgid "Saved."
+msgstr ""
+
+#: course/templates/course/flow-page.html:514
+msgid "Error--not saved."
+msgstr ""
+
+#: course/templates/course/flow-page.html:632
+msgid "No submission history"
+msgstr ""
+
+#: course/templates/course/flow-page.html:647
+#: course/templates/course/grade-flow-page.html:446
+msgid "(current)"
+msgstr ""
+
+#: course/templates/course/flow-page.html:650
+msgid "(submitted)"
+msgstr ""
+
+#: course/templates/course/flow-session-state.html:3
+msgid "unfinished"
+msgstr ""
+
+#: course/templates/course/flow-session-state.html:5
+msgid "finished"
+msgstr ""
+
+#: course/templates/course/flow-start.html:19
+msgid "Past sessions"
+msgstr "過去のセッション"
+
+#: course/templates/course/flow-start.html:25
+#: course/templates/course/gradebook-single.html:163
+msgid "Grading rules"
+msgstr ""
+
+#: course/templates/course/flow-start.html:26
+#: course/templates/course/gradebook-by-opp.html:28
+#: course/templates/course/gradebook-single.html:33
+#: course/templates/course/gradebook-single.html:144
+msgid "Due"
+msgstr ""
+
+#: course/templates/course/flow-start.html:28
+#: course/templates/course/gradebook-opp-list.html:24
+#: course/templates/course/gradebook-single.html:150
+#: course/templates/course/manage-auth-tokens.html:29
+#: course/templates/course/participation-table.html:11
+msgid "Actions"
+msgstr "アクション"
+
+#: course/templates/course/flow-start.html:43
+msgid "(no description)"
+msgstr ""
+
+#: course/templates/course/flow-start.html:54
+#, python-format
+msgid "<b>%(points)s</b> out of %(max_points)s (<b>%(percentage)s%%</b>)"
+msgstr ""
+
+#: course/templates/course/flow-start.html:62
+#: course/templates/course/gradebook-single.html:211
+msgid "(none)"
+msgstr ""
+
+#: course/templates/course/flow-start.html:65
+msgid "(not shown)"
+msgstr ""
+
+#: course/templates/course/flow-start.html:73
+msgid "Resume"
+msgstr "再開"
+
+#: course/templates/course/flow-start.html:75
+msgid "Review"
+msgstr "見直し"
+
+#: course/templates/course/flow-start.html:95
+msgid "If you start a new session, the following rules will apply:"
+msgstr ""
+
+#: course/templates/course/flow-start.html:99
+#, python-format
+msgid "Your session will be a '<b>%(description)s</b>'."
+msgstr ""
+
+#: course/templates/course/flow-start.html:106
+#, python-format
+msgid "Your session will be due on <b>%(due)s</b>."
+msgstr ""
+
+#: course/templates/course/flow-start.html:112
+#, python-format
+msgid "You will receive <b>%(credit_percent)s%% credit</b> for your work."
+msgstr ""
+
+#: course/templates/course/flow-start.html:119
+#, python-format
+msgid ""
+"This is not your first session. If you start another one, for your overall "
+"grade we will '<b>%(grade_aggregation_strategy_descr)s</b>' among all your "
+"sessions."
+msgstr ""
+
+#: course/templates/course/flow-start.html:134
+#: course/templates/course/flow-start.html:177
+msgid "Start"
+msgstr "開始"
+
+#: course/templates/course/flow-start.html:138
+msgid "I understand that starting a new session could lower my overall grade."
+msgstr "新しく開始すると、結果によってはあなたの平均点を下げる可能性があります"
+
+#: course/templates/course/flow-start.html:199
+msgid ""
+"You do not have any existing/viewable sessions and are not allowed to start "
+"a new one."
+msgstr ""
+
+#: course/templates/course/flow-start.html:206
+msgid "Check the following:"
+msgstr ""
+
+#: course/templates/course/flow-start.html:212
+#, python-format
+msgid ""
+"You're not currently signed in. Access to the resource is restricted, and "
+"since the site has no way of knowing who you are, it may have denied you "
+"accesss. Once you're signed in, navigate back to your course from the <a "
+"href=\"%(relate-home)s\"> home page </a> and retry your last action."
+msgstr ""
+
+#: course/templates/course/flow-start.html:223
+msgid "Has the deadline for this assignment passed?"
+msgstr ""
+
+#: course/templates/course/flow-start.html:226 relate/templates/403.html:27
+msgid ""
+"Complete your enrollment in your course. If you're not enrolled, a large "
+"\"Enroll now\" button will show up at the top of your course page. Click "
+"that, follow the indicated steps, and then retry your last action."
+msgstr ""
+
+#: course/templates/course/flow-start.html:234 relate/templates/403.html:34
+#, python-format
+msgid ""
+"If none of the above steps help, please navigate back to your course from "
+"the <a href=\"%(relate-home)s\">home page</a> and contact your course staff."
+msgstr ""
+
+#: course/templates/course/grade-flow-page.html:7
+#: course/templates/course/grade-flow-page.html:65
+msgid "Grading"
+msgstr ""
+
+#: course/templates/course/grade-flow-page.html:21
+msgid "Past submissions/grades"
+msgstr ""
+
+#: course/templates/course/grade-flow-page.html:72
+#: course/templates/course/gradebook-by-opp.html:21
+#: course/templates/course/gradebook-participant.html:22
+#: course/templates/course/gradebook-single.html:13
+msgid "Property"
+msgstr ""
+
+#: course/templates/course/grade-flow-page.html:72
+#: course/templates/course/gradebook-by-opp.html:21
+#: course/templates/course/gradebook-participant.html:22
+#: course/templates/course/gradebook-single.html:13
+msgid "Value"
+msgstr ""
+
+#. Translators: the grade information "for" a participant
+#: course/templates/course/grade-flow-page.html:83
+#, python-format
+msgid "for %(full_name)s (%(username)s)"
+msgstr ""
+
+#. Translators: the grade information "for" a participant
+#: course/templates/course/grade-flow-page.html:90
+#, python-format
+msgid "for %(masked_user_profile)s"
+msgstr ""
+
+#: course/templates/course/grade-flow-page.html:100
+msgid "Points awarded"
+msgstr ""
+
+#: course/templates/course/grade-flow-page.html:107
+msgid "(unknown)"
+msgstr ""
+
+#. Translators: the unit name in grading
+#: course/templates/course/grade-flow-page.html:112
+#: course/templates/course/grade-flow-page.html:452
+msgid "point"
+msgid_plural "points"
+msgstr[0] ""
+msgstr[1] ""
+
+#: course/templates/course/grade-flow-page.html:119
+#: course/templates/course/grade-flow-page.html:139
+msgid "(n/a)"
+msgstr ""
+
+#: course/templates/course/grade-flow-page.html:124
+msgid "Graded"
+msgstr ""
+
+#: course/templates/course/grade-flow-page.html:128
+#: course/templates/course/grading-statistics.html:22
+msgid "(autograded)"
+msgstr ""
+
+#. Translators: the grade is awarded "by" some humman grader.
+#: course/templates/course/grade-flow-page.html:131
+#, python-format
+msgid "by %(grader_name)s"
+msgstr ""
+
+#: course/templates/course/grade-flow-page.html:136
+msgctxt "at (what time)"
+msgid "at"
+msgstr ""
+
+#: course/templates/course/grade-flow-page.html:157 course/views.py:833
+msgid "Session"
+msgstr ""
+
+#: course/templates/course/grade-flow-page.html:162
+msgid "Start:"
+msgstr ""
+
+#: course/templates/course/grade-flow-page.html:180
+msgid "Page number"
+msgstr ""
+
+#: course/templates/course/grade-flow-page.html:185
+msgid "View in flow"
+msgstr ""
+
+#: course/templates/course/grade-flow-page.html:203
+msgid "Correct Answer"
+msgstr ""
+
+#: course/templates/course/grade-flow-page.html:285
+msgid "Enter new feedback item:"
+msgstr ""
+
+#: course/templates/course/grade-flow-page.html:333
+msgid "Add phrase"
+msgstr ""
+
+#: course/templates/course/grade-flow-page.html:385
+msgid "Submit and next page"
+msgstr ""
+
+#: course/templates/course/grade-flow-page.html:390
+msgid "Submit and next session"
+msgstr ""
+
+#: course/templates/course/grade-flow-page.html:431
+msgid "No submission/grade history"
+msgstr ""
+
+#: course/templates/course/grade-flow-page.html:443
+msgid "Submission:"
+msgstr ""
+
+#: course/templates/course/grade-flow-page.html:443
+msgid "Grade:"
+msgstr ""
+
+#: course/templates/course/grade-flow-page.html:449
+msgid "no grade"
+msgstr ""
+
+#: course/templates/course/grade-internal-notes-notify.txt:2
+#, python-format
+msgid ""
+"Hi there,\n"
+"I am sending you the internal grading notes regarding %(username)s's work on "
+"the page with title '%(page_title)s' in '%(flow_id)s' of "
+"'%(course_identifier)s'. The full text of the notes follows.\n"
+"-------------------------------------------------------------------\n"
+"%(notes_text)s\n"
+"-------------------------------------------------------------------\n"
+"Click here to review the page in the flow page:\n"
+"%(review_uri)s\n"
+"\n"
+msgstr ""
+
+#: course/templates/course/grade-notify.txt:1
+msgid "Dear user"
+msgstr ""
+
+#: course/templates/course/grade-notify.txt:2
+#, python-format
+msgid ""
+"\n"
+"You have a new notification regarding your work on the page with title "
+"'%(page_title)s' in '%(flow_id)s' of '%(course_identifier)s'. The full text "
+"of the feedback follows.\n"
+"-------------------------------------------------------------------\n"
+"%(feedback_text)s\n"
+"-------------------------------------------------------------------\n"
+"Click here to review the feedback in context:\n"
+"%(review_uri)s\n"
+"\n"
+msgstr ""
+
+#: course/templates/course/grade-notify.txt:11
+msgid "course staff"
+msgstr ""
+
+#: course/templates/course/gradebook-by-opp.html:25
+#: course/templates/course/gradebook-single.html:29
+msgid "Grading Opportunity ID"
+msgstr "問題集ID"
+
+#: course/templates/course/gradebook-by-opp.html:35
+#: course/templates/course/gradebook-single.html:38
+msgid "Flow"
+msgstr ""
+
+#: course/templates/course/gradebook-by-opp.html:37
+msgid "(Start page)"
+msgstr ""
+
+#. Translators: "Counts" on the quantities of total session and finished sessions
+#: course/templates/course/gradebook-by-opp.html:42
+msgid "Counts"
+msgstr ""
+
+#: course/templates/course/gradebook-by-opp.html:44
+#, python-format
+msgid "%(total_sessions)s total sessions (%(finished_sessions)s finished)"
+msgstr ""
+
+#: course/templates/course/gradebook-by-opp.html:51
+msgid "Operations"
+msgstr ""
+
+#: course/templates/course/gradebook-by-opp.html:54
+msgid "View analytics"
+msgstr ""
+
+#: course/templates/course/gradebook-by-opp.html:57
+msgid "View grader statistics"
+msgstr ""
+
+#: course/templates/course/gradebook-by-opp.html:62
+msgid "View page grades"
+msgstr ""
+
+#: course/templates/course/gradebook-by-opp.html:66
+msgid "Hide page grades"
+msgstr ""
+
+#: course/templates/course/gradebook-by-opp.html:70
+msgid "Download submissions"
+msgstr ""
+
+#: course/templates/course/gradebook-by-opp.html:74
+#: course/templates/course/gradebook-opp-list.html:45
+#: course/templates/course/participation-table.html:38
+msgid "Edit"
+msgstr ""
+
+#: course/templates/course/gradebook-by-opp.html:83
+msgid "Modify many sessions at once"
+msgstr ""
+
+#: course/templates/course/gradebook-by-opp.html:87
+msgid ""
+"<p> \"Impose deadline (Expire sessions)\" will find all sessions for this "
+"flow that match the selected session tag and, depending on the session's "
+"selected choice of action at the deadline (aka its \"expiration mode\"), "
+"either end the session or roll it over to the now-current set of grading "
+"rules. (The \"session tag\" corresponds to session tags you may have defined "
+"in your access rules.) </p> <p> \"Regrade ended sessions\" will rerun the "
+"grading code on all submissions that are no longer in progress. If the flow "
+"involved code questions, this may be a long-running operation. </p> <p> "
+"\"Recalculate grades of ended sessions\", by contrast, will not try to "
+"redetermine the correctness of the answers provided by the participant. "
+"Instead, it will merely use the already available correctness information to "
+"recompute the grade achieved, taking into account possible changes in the "
+"grading rules. </p>"
+msgstr ""
+
+#: course/templates/course/gradebook-by-opp.html:128
+msgid "Session state"
+msgstr ""
+
+#: course/templates/course/gradebook-by-opp.html:129
+msgid "Session grade"
+msgstr ""
+
+#: course/templates/course/gradebook-by-opp.html:140
+#: course/templates/course/gradebook.html:35
+#: course/templates/course/participation-table.html:31
+msgid "Me"
+msgstr ""
+
+#: course/templates/course/gradebook-by-opp.html:190
+msgid "Rules tag"
+msgstr ""
+
+#: course/templates/course/gradebook-by-opp.html:197
+#, python-format
+msgid "%(points)s/%(max_points)s points"
+msgstr ""
+
+#: course/templates/course/gradebook-opp-list.html:18
+msgid "Add grading opportunity"
+msgstr "問題集の追加"
+
+#: course/templates/course/gradebook-opp-list.html:22
+#: course/templates/course/gradebook-participant.html:59
+msgid "Name of grading opportunity"
+msgstr "問題集名"
+
+#: course/templates/course/gradebook-opp-list.html:29
+msgid "Shown to participants"
+msgstr ""
+
+#: course/templates/course/gradebook-participant-list.html:17
+msgid "Add participant"
+msgstr ""
+
+#: course/templates/course/gradebook-participant.html:7
+#: course/templates/course/gradebook-participant.html:16
+msgid "My Grades"
+msgstr "あなたの成績"
+
+#: course/templates/course/gradebook-participant.html:18
+msgid "Grades"
+msgstr "成績"
+
+#: course/templates/course/gradebook-participant.html:41
+#: course/templates/course/gradebook-single.html:23
+msgid "ME"
+msgstr ""
+
+#: course/templates/course/gradebook-participant.html:61
+msgid "Date"
+msgstr "日時"
+
+#: course/templates/course/gradebook-participant.html:83
+#: course/templates/course/gradebook-participant.html:84
+msgid "(not released)"
+msgstr ""
+
+#: course/templates/course/gradebook-single.html:9
+msgid "Understand a grade"
+msgstr "成績詳細"
+
+#: course/templates/course/gradebook-single.html:44
+msgid "Flow start page"
+msgstr "開始画面はこちら"
+
+#. Translators: averaged grade of a flow of all participants
+#: course/templates/course/gradebook-single.html:50
+msgid "Average grade"
+msgstr "平均成績"
+
+#. Translators: average grade of a flow, format "10% (out of 5 grades)"
+#: course/templates/course/gradebook-single.html:54
+#, python-format
+msgid "%(avg_grade_percentage)s%% (out of %(avg_grade_population)s grades)"
+msgstr ""
+
+#: course/templates/course/gradebook-single.html:59
+msgid "(no data)"
+msgstr ""
+
+#: course/templates/course/gradebook-single.html:67
+msgid "Grade history"
+msgstr ""
+
+#: course/templates/course/gradebook-single.html:69
+msgid " (no grade data available)"
+msgstr ""
+
+#. Translators: "what" stand for the state of a grade, e.g. "graded"
+#: course/templates/course/gradebook-single.html:75
+msgid "What"
+msgstr ""
+
+#: course/templates/course/gradebook-single.html:77
+msgid "Further Information"
+msgstr ""
+
+#: course/templates/course/gradebook-single.html:92
+#, python-format
+msgid "%(points)s/%(max_points)s points (%(percentage)s%%)"
+msgstr ""
+
+#: course/templates/course/gradebook-single.html:98
+#: course/templates/course/gradebook-single.html:260
+msgid "(no grade)"
+msgstr ""
+
+#: course/templates/course/gradebook-single.html:109
+#, python-format
+msgid "(from flow session %(gchange_flow_session_id)s)"
+msgstr ""
+
+#: course/templates/course/gradebook-single.html:147
+msgid "Pages"
+msgstr ""
+
+#. Translators: means "Started at", which followed by a time string
+#: course/templates/course/gradebook-single.html:175
+msgid "Started"
+msgstr ""
+
+#. Translators: means "Completed at", which followed by a time string
+#: course/templates/course/gradebook-single.html:180
+msgid "Completed"
+msgstr ""
+
+#. Translators: means "Last activity at", which followed by a time string
+#: course/templates/course/gradebook-single.html:184
+msgid "Last activity"
+msgstr ""
+
+#: course/templates/course/gradebook-single.html:205
+#, python-format
+msgid "(grade not available) (%(max_points)s points achievable)"
+msgstr ""
+
+#: course/templates/course/gradebook-single.html:215
+msgid " Notes:"
+msgstr ""
+
+#: course/templates/course/gradebook-single.html:228
+msgid "Page"
+msgstr ""
+
+#: course/templates/course/gradebook-single.html:229
+msgid "Percent"
+msgstr ""
+
+#: course/templates/course/gradebook-single.html:286
+msgid "Impose deadline"
+msgstr ""
+
+#: course/templates/course/gradebook-single.html:292
+msgid "End and grade"
+msgstr ""
+
+#: course/templates/course/gradebook-single.html:305
+msgid "Recalculate grade"
+msgstr ""
+
+#: course/templates/course/grading-statistics.html:5
+msgid "Grader Statistics"
+msgstr ""
+
+#: course/templates/course/grading-statistics.html:9
+msgid "Grader Statistics: "
+msgstr ""
+
+#: course/templates/course/grading-statistics.html:12
+msgid ""
+"(No information about grading work distribution for human-graded problems "
+"available.)"
+msgstr ""
+
+#: course/templates/course/grading-statistics.html:26
+#: course/templates/course/grading-statistics.html:38
+msgid "Total"
+msgstr ""
+
+#: course/templates/course/home.html:7
+#, python-format
+msgid " Welcome to %(RELATE)s "
+msgstr ""
+
+#: course/templates/course/home.html:8
+msgid "RELATE is an Environment for Learning And TEaching"
+msgstr ""
+
+#: course/templates/course/home.html:10
+msgid "Learn more"
+msgstr ""
+
+#: course/templates/course/home.html:23
+msgid "View"
+msgstr ""
+
+#: course/templates/course/home.html:31
+msgid "Past Courses"
+msgstr ""
+
+#: course/templates/course/home.html:55
+#, python-format
+msgid "There are no courses hosted on this %(RELATE)s site."
+msgstr ""
+
+#: course/templates/course/home.html:58
+#, python-format
+msgid "<a href=\"%(relate-sign_in_by_user_pw)s\">Sign in</a> to get started."
+msgstr ""
+
+#: course/templates/course/home.html:65 course/versioning.py:322
+msgid "Set up new course"
+msgstr "新しいコースをセットアップする"
+
+#: course/templates/course/human-feedback-form.html:9
+msgid "Rubric"
+msgstr ""
+
+#: course/templates/course/invalid-datespec-list.html:5
+msgid "Event validity check"
+msgstr ""
+
+#: course/templates/course/invalid-datespec-list.html:8
+msgid ""
+"The following events were found in course content that are not present in "
+"the database:"
+msgstr ""
+
+#: course/templates/course/invalid-datespec-list.html:26
+msgid "Unrecognized events were found."
+msgstr ""
+
+#: course/templates/course/invalid-datespec-list.html:30
+msgid ""
+"Check the \"Calendar\" functions in the instructor menu to add the missing "
+"labels."
+msgstr ""
+
+#: course/templates/course/invalid-datespec-list.html:39
+msgid "No unrecognized events were found."
+msgstr ""
+
+#: course/templates/course/keypair.html:5
+msgid "SSH Key Pair"
+msgstr ""
+
+#: course/templates/course/keypair.html:7
+msgid "Private key:"
+msgstr ""
+
+#: course/templates/course/keypair.html:8
+#, python-format
+msgid ""
+"Copy and paste this block of text into the 'private key' field in "
+"%(relate_site_name)s."
+msgstr ""
+
+#: course/templates/course/keypair.html:13
+msgid "Public key:"
+msgstr ""
+
+#: course/templates/course/keypair.html:14
+msgid ""
+"On Bitbucket, GitHub, or an other repository hosting site, add this snippet "
+"as an \"SSH Key\" to your user profile or as a \"Deployment key\" to your "
+"repository."
+msgstr ""
+
+#: course/templates/course/list-exams.html:5
+msgid "Available Exams"
+msgstr ""
+
+#: course/templates/course/list-exams.html:20
+msgid "Take exam"
+msgstr ""
+
+#: course/templates/course/list-exams.html:26
+msgid "(No exams available.)"
+msgstr ""
+
+#: course/templates/course/list-exams.html:28
+msgid "(No exams available. Please sign in to continue.)"
+msgstr ""
+
+#: course/templates/course/login-by-email.html:7
+msgid "Sign in or create account"
+msgstr "サインインまたはアカウント作成"
+
+#: course/templates/course/login-by-email.html:13
+#, python-format
+msgid ""
+"If you cannot or would not like to sign in by email, <a href="
+"\"%(relate-sign_in_choice)s\">please choose a different method to sign in</"
+"a>."
+msgstr "以下の方法でサインインできない、またはしたくない場合は、<a href="
+"\"%(relate-sign_in_choice)s\">別の方法でサインインしてください</a>"
+
+#. Translators: For courses which require specific email suffix for enrollment, translate the following literals
+#. with your customized email suffix.
+#.
+#: course/templates/course/login-by-email.html:26
+msgid ""
+"Please use the <em>official</em> email address associated with the "
+"institution at which this course is taking place. Some courses may require a "
+"certain email domain (such as \"@illinois.edu\") for enrollment."
+msgstr ""
+
+#: course/templates/course/login.html:12
+#, python-format
+msgid ""
+"If you cannot or would not like to sign in using a %(relate_site_name)s-"
+"specific user name or password, <a href='%(relate-sign_in_choice)s"
+"%(next_uri)s'>please choose a different method to sign in</a>."
+msgstr "以下の方法で%(relate_site_name)sにサインインできない、またはしたくない場合は、<a href='%(relate-sign_in_choice)s%(next_uri)s'>別の方法でサインインしてください</a>"
+
+#: course/templates/course/login.html:21
+msgid ""
+"Note that the user name and password needed to use this form is <em>not</em> "
+"the user name and password you may have been assigned by your institution."
+msgstr ""
+
+#: course/templates/course/login.html:31
+#, python-format
+msgid ""
+"If you do not have an account, <a href='%(relate-sign_up)s'>sign up</a>."
+msgstr ""
+
+#: course/templates/course/login.html:36
+#, python-format
+msgid ""
+"If you do not remember your password, <a href=\"%(relate-reset_password)s\"> "
+"reset your password </a>."
+msgstr ""
+
+#: course/templates/course/manage-auth-tokens.html:17
+msgid "(No tokens have been created yet.)"
+msgstr ""
+
+#: course/templates/course/manage-auth-tokens.html:23
+msgid "Token ID"
+msgstr ""
+
+#: course/templates/course/manage-auth-tokens.html:24
+msgid "Role Restriction"
+msgstr ""
+
+#: course/templates/course/manage-auth-tokens.html:26
+msgid "Created"
+msgstr ""
+
+#: course/templates/course/manage-auth-tokens.html:28
+msgid "Last used"
+msgstr ""
+
+#: course/templates/course/manage-auth-tokens.html:51
+msgid "Revoked"
+msgstr ""
+
+#: course/templates/course/manage-auth-tokens.html:53
+msgid "Indefinitely"
+msgstr ""
+
+#: course/templates/course/manage-auth-tokens.html:61
+msgid "(never used)"
+msgstr ""
+
+#: course/templates/course/participation-table.html:13
+msgid "Status"
+msgstr ""
+
+#. Translators: "set-up" stands for set-up code for code question
+#: course/templates/course/prompt-code-question.html:10
+msgid "Problem set-up code"
+msgstr ""
+
+#: course/templates/course/prompt-code-question.html:11
+#: course/templates/course/prompt-code-question.html:40
+#: course/templates/course/prompt-code-question.html:69
+msgid "(click to view)"
+msgstr ""
+
+#: course/templates/course/prompt-code-question.html:18
+#, python-format
+msgid ""
+"This is the code that is used to set up the problem and produce test data "
+"for your submission. It is reproduced here for your information, or if you "
+"would like to run your submission outside of %(relate_site_name)s. You "
+"should <em>not</em> copy/paste this code into the code box below. This code "
+"is run automatically 'behind the scenes' before your submitted code."
+msgstr ""
+
+#: course/templates/course/prompt-code-question.html:39
+msgid "Testing code"
+msgstr ""
+
+#: course/templates/course/prompt-code-question.html:47
+#, python-format
+msgid ""
+"This is the code that is used to generate feedback for your submission. It "
+"is reproduced here for your information, or if you would like to run your "
+"submission outside of %(relate_site_name)s. You should <em>not</em> copy/"
+"paste this code into the code box below. This code is run automatically "
+"'behind the scenes' after your submitted code."
+msgstr ""
+
+#. Translators: starter code for code question
+#: course/templates/course/prompt-code-question.html:68
+msgid "Starter code"
+msgstr ""
+
+#: course/templates/course/query-participations.html:7
+#: course/templates/course/query-participations.html:15
+msgid "Query Participations"
+msgstr ""
+
+#: course/templates/course/query-participations.html:24
+msgid "No matches"
+msgstr ""
+
+#: course/templates/course/sandbox-markup.html:12
+msgid "Markup Sandbox"
+msgstr "マークアップ サンドボックス"
+
+#. Translators: "[SB]" is abbreviation for "Sandbox"
+#: course/templates/course/sandbox-page.html:10
+#, python-format
+msgid "[SB] %(title)s"
+msgstr ""
+
+#: course/templates/course/sandbox-page.html:14
+#: course/templates/course/sandbox-page.html:23
+msgid "Page Sandbox"
+msgstr "<div style='font-size:20px;'>ページ サンドボックス</div>"
+
+#: course/templates/course/sandbox-page.html:35
+msgid "Warnings were encountered when validating the page:"
+msgstr ""
+
+#: course/templates/course/sandbox-page.html:83
+msgid "(Page preview appears here)"
+msgstr "(プレビューはここに表示されます)"
+
+#: course/templates/course/sign-in-email.txt:2
+#, python-format
+msgid ""
+"\n"
+"Welcome to %(RELATE)s! Please click this link to sign in:\n"
+"%(sign_in_uri)s\n"
+"\n"
+"You have received this email because someone (maybe you) entered your email "
+"address into the %(RELATE)s web site at\n"
+"%(home_uri)s\n"
+"\n"
+"If this was not you, it is safe to disregard this email.\n"
+msgstr ""
+
+#: course/templates/course/static-page.html:6
+msgid "Jump to"
+msgstr "ページ内項目"
+
+#: course/templates/course/submit-notify.txt:1
+#, python-format
+msgid "Dear course staff of %(course_identifier)s,"
+msgstr ""
+
+#: course/templates/course/submit-notify.txt:3
+#, python-format
+msgid "Participant '%(participant)s'"
+msgstr ""
+
+#: course/templates/course/submit-notify.txt:3
+msgid "A participant"
+msgstr ""
+
+#: course/templates/course/submit-notify.txt:3
+#, python-format
+msgid ""
+" has just submitted his/her work on '%(flow_id)s'.\n"
+"\n"
+"Click here to review it:\n"
+"%(review_uri)s\n"
+msgstr ""
+
+#: course/templates/course/task-monitor.html:12
+msgid "Task Progress"
+msgstr "進捗状況"
+
+#: course/templates/course/task-monitor.html:22
+msgid "Progress"
+msgstr ""
+
+#: course/templates/course/task-monitor.html:54
+msgid "The process failed and reported the following error:"
+msgstr ""
+
+#: course/utils.py:564
+msgid "grading rule determination was unable to find a grading rule"
+msgstr ""
+
+#: course/utils.py:626
+#, python-format
+msgid ""
+"Preview revision '%s' does not exist--showing active course content instead."
+msgstr ""
+
+#: course/utils.py:950
+msgid "Press F9 to toggle full-screen mode. "
+msgstr "F9 を押すとフルスクリーンに切り替えます。"
+
+#: course/utils.py:951
+#, python-format
+msgid "Set editor mode in <a href='%s'>user profile</a>."
+msgstr ""
+
+#: course/utils.py:1114
+msgid "Are you sure the file is a CSV file other than a Microsoft Excel file?"
+msgstr ""
+
+#: course/utils.py:1134
+msgid ""
+"Error: Columns to be imported contain non-ASCII characters. Please save your "
+"CSV file as utf-8 encoded and import again."
+msgstr ""
+
+#: course/utils.py:1188
+msgid ""
+"disabled (i.e., displayed language is determined by user's browser "
+"preference)"
+msgstr ""
+
+#: course/validation.py:70 course/validation.py:78
+msgid "invalid identifier"
+msgstr ""
+
+#: course/validation.py:96
+#, python-format
+msgid "invalid role '%(role)s'"
+msgstr ""
+
+#: course/validation.py:110
+#, python-format
+msgid ""
+"Name of facility not recognized: '%(fac_name)s'. Known facility names: "
+"'%(known_fac_names)s'"
+msgstr ""
+
+#: course/validation.py:137
+#, python-format
+msgid ""
+"Name of participation tag not recognized: '%(ptag_name)s'. Known "
+"participation tag names: '%(known_ptag_names)s'"
+msgstr ""
+
+#: course/validation.py:185
+#, python-format
+msgid "attribute '%(attr)s' missing"
+msgstr ""
+
+#: course/validation.py:203
+#, python-format
+msgid ""
+"attribute '%(attr)s' has wrong type: got '%(name)s', expected '%(allowed)s'"
+msgstr ""
+
+#: course/validation.py:218
+#, python-format
+msgid "extraneous attribute(s) '%(attr)s'"
+msgstr ""
+
+#: course/validation.py:349
+msgid "Uses deprecated 'start' attribute--use 'if_after' instead"
+msgstr ""
+
+#: course/validation.py:355
+msgid "Uses deprecated 'end' attribute--use 'if_before' instead"
+msgstr ""
+
+#: course/validation.py:361
+msgid "Uses deprecated 'roles' attribute--use 'if_has_role' instead"
+msgstr ""
+
+#: course/validation.py:393
+msgid "no title present"
+msgstr ""
+
+#: course/validation.py:426
+msgid "must have either 'chunks' or 'content'"
+msgstr ""
+
+#: course/validation.py:453
+#, python-format
+msgid "chunk id '%(chunkid)s' not unique"
+msgstr ""
+
+#: course/validation.py:471
+msgid "flow page has no ID"
+msgstr ""
+
+#: course/validation.py:488
+#, python-format
+msgid ""
+"Custom page type '%(page_type)s' specified. Custom page types were no longer "
+"supported in %(relate_site_name)s since %(date_time)s."
+msgstr ""
+
+#: course/validation.py:498
+#, python-format
+msgid ""
+"Custom page type '%(page_type)s' specified. Custom page types will stop "
+"being supported in %(relate_site_name)s at %(date_time)s."
+msgstr ""
+
+#: course/validation.py:519
+msgid "could not instantiate flow page"
+msgstr ""
+
+#: course/validation.py:555
+#, python-format
+msgid "group '%(group_id)s': group is empty"
+msgstr ""
+
+#: course/validation.py:562
+#, python-format
+msgid "group '%(group_id)s': max_page_count is not positive"
+msgstr ""
+
+#: course/validation.py:575
+#, python-format
+msgid "page id '%(page_desc_id)s' not unique"
+msgstr ""
+
+#: course/validation.py:641
+msgid "attribute 'may_start_new_session' is not present"
+msgstr ""
+
+#: course/validation.py:645
+msgid "attribute 'may_list_existing_sessions' is not present"
+msgstr ""
+
+#: course/validation.py:649
+msgid ""
+"Attribute 'lock_down_as_exam_session' is deprecated and non-functional. Use "
+"the access permission flag 'lock_down_as_exam_session' instead."
+msgstr ""
+
+#: course/validation.py:663 course/validation.py:733 course/validation.py:849
+#, python-format
+msgid "invalid tag '%(tag)s'"
+msgstr ""
+
+#: course/validation.py:672
+#, python-format
+msgid "invalid default expiration mode '%(expiremode)s'"
+msgstr ""
+
+#: course/validation.py:741
+#, python-format
+msgid "invalid expiration mode '%(expiremode)s'"
+msgstr ""
+
+#: course/validation.py:758
+msgid ""
+"Rule specifies 'submit_answer' or 'end_session' permissions for non-in-"
+"progress flow. These permissions will be ignored."
+msgstr ""
+
+#: course/validation.py:807
+msgid ""
+"'grade_identifier' attribute found. This attribute is no longer allowed here "
+"and should be moved upward into the 'rules' block."
+msgstr ""
+
+#: course/validation.py:816
+msgid ""
+"'grade_aggregation_strategy' attribute found. This attribute is no longer "
+"allowed here and should be moved upward into the 'rules' block."
+msgstr ""
+
+#: course/validation.py:860
+msgid "'generates_grade' is true, but no 'grade_identifier'is given."
+msgstr ""
+
+#: course/validation.py:889
+msgid ""
+"'rules' block does not have a grade_identifier attribute. This attribute "
+"needs to be moved out of the lower-level 'grading' rules block and into the "
+"'rules' block itself."
+msgstr ""
+
+#: course/validation.py:928
+#, python-format
+msgid ""
+"flows that have a grade identifier ('%(identifier)s') must have grading "
+"rules with a grade_aggregation_strategy"
+msgstr ""
+
+#: course/validation.py:944
+msgid "invalid grade aggregation strategy"
+msgstr ""
+
+#: course/validation.py:955
+msgid "'grading' block is required if grade_identifier is not null/None."
+msgstr ""
+
+#: course/validation.py:966
+msgid "rules/grading: may not be an empty list"
+msgstr ""
+
+#: course/validation.py:981
+msgid "rules/grading: last grading rule must be unconditional"
+msgstr ""
+
+#: course/validation.py:993
+msgid ""
+"Uses deprecated 'modify' permission--replace by 'submit_answer' and "
+"'end_session'"
+msgstr ""
+
+#: course/validation.py:999
+msgid ""
+"Uses deprecated 'see_answer' permission--replace by "
+"'see_answer_after_submission'"
+msgstr ""
+
+#: course/validation.py:1006
+#, python-format
+msgid "invalid flow permission '%(permission)s'"
+msgstr ""
+
+#: course/validation.py:1046
+msgid "must have either 'groups' or 'pages'"
+msgstr ""
+
+#: course/validation.py:1068
+#, python-format
+msgid "group %(group_index)d ('%(group_id)s'): 'pages' is not a list"
+msgstr ""
+
+#: course/validation.py:1083
+#, python-format
+msgid "group %(group_index)d ('%(group_id)s'): no pages found"
+msgstr ""
+
+#: course/validation.py:1091
+#, python-format
+msgid "%s: no pages found"
+msgstr ""
+
+#: course/validation.py:1104
+#, python-format
+msgid "group id '%(group_id)s' not unique"
+msgstr ""
+
+#: course/validation.py:1126
+#, python-format
+msgid "notify_on_submit: item %d is not a string"
+msgstr ""
+
+#: course/validation.py:1132
+#, python-format
+msgid ""
+"Attribute '%s' is deprecated as part of a flow. Specify it as part of a "
+"grading rule instead."
+msgstr ""
+
+#: course/validation.py:1266
+msgid "Access class 'public' is deprecated. Use 'unenrolled' instead."
+msgstr ""
+
+#: course/validation.py:1271
+#, python-format
+msgid ""
+"%s: access classes 'public' and 'unenrolled' may not exist simultaneously."
+msgstr ""
+
+#: course/validation.py:1334
+#, python-brace-format
+msgid ""
+"{location}: existing grading opportunity with identifier "
+"'{grade_identifier}' refers to flow '{other_flow_id}', however flow code in "
+"this flow ('{new_flow_id}') specifies the same grade identifier. (Have you "
+"renamed the flow? If so, edit the grading opportunity to match.)"
+msgstr ""
+
+#: course/validation.py:1373
+#, python-format
+msgid ""
+"%(loc)s, group '%(group)s', page '%(page)s': page type ('%(type_new)s') "
+"differs from type used in database ('%(type_old)s')"
+msgstr ""
+
+#: course/validation.py:1404
+#, python-format
+msgid "Your course repository does not have an events file named '%s'."
+msgstr ""
+
+#: course/validation.py:1450
+msgid ""
+"Your course repository has a 'media/' directory. Linking to media files "
+"using 'media:' is discouraged. Use the 'repo:' and 'repocur:' linkng schemes "
+"instead."
+msgstr ""
+
+#: course/validation.py:1475
+msgid ""
+"invalid flow name. Flow names may only contain (roman) letters, numbers, "
+"dashes and underscores."
+msgstr ""
+
+#: course/validation.py:1500
+msgid "flow uses the same grade_identifier as another flow"
+msgstr ""
+
+#: course/validation.py:1539
+msgid ""
+"invalid page name. Page names may only contain alphanumeric characters (any "
+"language) and hyphens."
+msgstr ""
+
+#: course/validation.py:1636
+msgid "WARNINGS: "
+msgstr ""
+
+#: course/versioning.py:203
+msgid "Validate and create"
+msgstr ""
+
+#: course/versioning.py:234
+msgid ""
+"No refs found in remote repository (i.e. no master branch, no HEAD). This "
+"looks very much like a blank repository. Please create course.yml in the "
+"remote repository before creating your course."
+msgstr ""
+
+#: course/versioning.py:277
+msgid "Course content validated, creation succeeded."
+msgstr ""
+
+#: course/versioning.py:293
+#, python-format
+msgid "Failed to delete unused repository directory '%s'."
+msgstr ""
+
+#: course/versioning.py:309
+msgid "Course creation failed"
+msgstr ""
+
+#: course/versioning.py:358
+msgid "no git source URL specified"
+msgstr ""
+
+#: course/versioning.py:371
+msgid "fetch would discard commits, refusing"
+msgstr ""
+
+#: course/versioning.py:375
+msgid "Fetch successful."
+msgstr ""
+
+#: course/versioning.py:387 course/versioning.py:436
+msgid "Preview ended."
+msgstr ""
+
+#: course/versioning.py:400
+#, python-format
+msgid "Course content did not validate successfully. (%s) Update not applied."
+msgstr ""
+
+#: course/versioning.py:407
+msgid "Course content validated successfully."
+msgstr ""
+
+#: course/versioning.py:411
+msgid "Course content validated OK, with warnings: "
+msgstr ""
+
+#: course/versioning.py:422
+msgid "Preview activated."
+msgstr ""
+
+#: course/versioning.py:439
+msgid "Update applied. "
+msgstr ""
+
+#: course/versioning.py:442 course/versioning.py:561 course/views.py:925
+msgid "invalid command"
+msgstr ""
+
+#: course/versioning.py:481
+msgctxt "new git SHA for revision of course contents"
+msgid "New git SHA"
+msgstr ""
+
+#: course/versioning.py:484
+msgid "Prevent updating to a git revision prior to the current one"
+msgstr "現在よりも前バージョンへの更新を禁止"
+
+#: course/versioning.py:492
+msgid "Fetch and update"
+msgstr ""
+
+#: course/versioning.py:496
+msgid "End preview"
+msgstr ""
+
+#: course/versioning.py:498
+msgid "Fetch and preview"
+msgstr ""
+
+#: course/versioning.py:501
+msgid "Fetch"
+msgstr ""
+
+#: course/versioning.py:516
+msgid "- not found -"
+msgstr ""
+
+#: course/versioning.py:600
+msgid "Git Source URL"
+msgstr ""
+
+#: course/versioning.py:605
+msgid "Public active git SHA"
+msgstr ""
+
+#: course/versioning.py:614
+msgid "Current git HEAD"
+msgstr ""
+
+#: course/versioning.py:624 course/versioning.py:635
+msgid "Current preview git SHA"
+msgstr ""
+
+#: course/versioning.py:637
+msgid "None"
+msgstr ""
+
+#: course/versioning.py:649
+msgid "Update Course Revision"
+msgstr "コース内容の更新"
+
+#: course/views.py:161 course/views.py:163
+msgid "course page is currently hidden"
+msgstr ""
+
+#: course/views.py:188 tests/test_enrollment.py:66
+msgid ""
+"Your enrollment request is pending. You will be notified once it has been "
+"acted upon."
+msgstr ""
+
+#: course/views.py:198
+#, python-format
+msgid ""
+"This course uses institutional ID for enrollment preapproval, please <a "
+"href='%s' role='button' class='btn btn-md btn-primary'>fill in your "
+"institutional ID &nbsp;&raquo;</a> in your profile."
+msgstr ""
+
+#: course/views.py:213
+msgid ""
+"Your institutional ID is not verified or preapproved. Please contact your "
+"course staff."
+msgstr ""
+
+#. Translators: "set" fake time.
+#. Translators: "set" fake facility.
+#: course/views.py:382 course/views.py:501
+msgid "Set"
+msgstr ""
+
+#. Translators: "unset" fake time.
+#. Translators: "unset" fake facility.
+#: course/views.py:385 course/views.py:504
+msgid "Unset"
+msgstr ""
+
+#: course/views.py:433 course/views.py:527
+msgid "may not set fake time"
+msgstr ""
+
+#: course/views.py:457 relate/templates/base-page-top.html:41
+#: relate/templates/base.html:115
+msgid "Set fake time"
+msgstr ""
+
+#: course/views.py:482
+msgid "Facilities"
+msgstr ""
+
+#: course/views.py:483
+msgid "Facilities you wish to pretend to be in"
+msgstr ""
+
+#: course/views.py:486
+msgid "Custom facilities"
+msgstr ""
+
+#: course/views.py:488
+msgid ""
+"More (non-predefined) facility names, separated by commas, which would like "
+"to pretend to be in"
+msgstr ""
+
+#: course/views.py:494
+msgid "Add fake facililities header"
+msgstr ""
+
+#: course/views.py:495
+msgid ""
+"Add a page header to every page rendered while pretending to be in a "
+"facility, as a reminder that this pretending is in progress."
+msgstr ""
+
+#: course/views.py:561
+msgid "Pretend to be in Facilities"
+msgstr ""
+
+#: course/views.py:590
+msgctxt "Duration for instant flow"
+msgid "Duration in minutes"
+msgstr ""
+
+#: course/views.py:595
+msgctxt "Add an instant flow"
+msgid "Add"
+msgstr ""
+
+#: course/views.py:599
+msgctxt "Cancel all instant flow(s)"
+msgid "Cancel all"
+msgstr ""
+
+#: course/views.py:652
+msgid "Manage Instant Flow Requests"
+msgstr ""
+
+#: course/views.py:675
+msgctxt "Start an activity"
+msgid "Go"
+msgstr ""
+
+#: course/views.py:704
+msgid "Test Flow"
+msgstr ""
+
+#: course/views.py:735
+msgid "Select participant for whom exception is to be granted."
+msgstr ""
+
+#: course/views.py:749 course/views.py:840
+msgctxt "Next step"
+msgid "Next"
+msgstr ""
+
+#: course/views.py:756 course/views.py:849 course/views.py:1094
+msgid "may not grant exceptions"
+msgstr ""
+
+#: course/views.py:776 course/views.py:962 course/views.py:1262
+msgid "Grant Exception"
+msgstr ""
+
+#. Translators: %s is the string of the start time of a session.
+#: course/views.py:785
+#, python-format
+msgid "started at %s"
+msgstr ""
+
+#: course/views.py:804
+msgid ""
+"If you click 'Create session', this tag will be applied to the new session."
+msgstr ""
+
+#: course/views.py:806
+msgid "Access rules tag for new session"
+msgstr ""
+
+#: course/views.py:812
+msgid "Create session (override rules)"
+msgstr ""
+
+#: course/views.py:817
+msgid "Create session"
+msgstr ""
+
+#: course/views.py:830
+msgid ""
+"The rules that currently apply to selected session will provide the default "
+"values for the rules on the next page."
+msgstr ""
+
+#: course/views.py:858
+#, python-format
+msgid "Granting exception to '%(participation)s' for '%(flow_id)s'."
+msgstr ""
+
+#: course/views.py:879 course/views.py:883
+msgid "NONE"
+msgstr ""
+
+#: course/views.py:895
+msgid ""
+"Creating a new session is (technically) not allowed by course rules. "
+"Clicking 'Create Session' anyway will override this rule."
+msgstr ""
+
+#: course/views.py:985
+msgid "Exception only applies to sessions with the above tag"
+msgstr ""
+
+#: course/views.py:997
+msgid "If set, an exception for the access rules will be created."
+msgstr ""
+
+#: course/views.py:999
+msgid "Create access rule exception"
+msgstr ""
+
+#: course/views.py:1006
+msgctxt "Time when access expires"
+msgid "Access expires"
+msgstr ""
+
+#: course/views.py:1007
+msgid ""
+"At the specified time, the special access granted below will expire and "
+"revert to being the same as for the rest of the class. This field may be "
+"empty, in which case this access does not expire. Note also that the grading-"
+"related entries (such as 'due date' and 'credit percent') do not expire and "
+"remain valid indefinitely, unless overridden by another exception."
+msgstr ""
+
+#: course/views.py:1025
+msgid "If set, an exception for the grading rules will be created."
+msgstr ""
+
+#: course/views.py:1027
+msgid "Create grading rule exception"
+msgstr ""
+
+#: course/views.py:1029
+msgid "If set, the 'Due' field will be disregarded."
+msgstr ""
+
+#: course/views.py:1032
+msgid "Due same as access expiration"
+msgstr ""
+
+#: course/views.py:1037
+msgid ""
+"The due time shown to the student. Also, the time after which any session "
+"under these rules is subject to expiration."
+msgstr ""
+
+#: course/views.py:1045
+msgid "Generates grade"
+msgstr ""
+
+#: course/views.py:1048
+msgid "Credit percent"
+msgstr ""
+
+#: course/views.py:1051
+msgid "Bonus points"
+msgstr ""
+
+#: course/views.py:1054
+msgid "Maximum number of points (for percentage)"
+msgstr ""
+
+#: course/views.py:1057
+msgid "Maximum number of points (enforced cap)"
+msgstr ""
+
+#: course/views.py:1075
+msgid "Save"
+msgstr ""
+
+#: course/views.py:1084
+msgid ""
+"Must specify access expiration if 'due same as access expiration' is set."
+msgstr ""
+
+#: course/views.py:1158 course/views.py:1218
+msgid "newly created exception"
+msgstr ""
+
+#: course/views.py:1188
+msgid "Granted excecption"
+msgstr ""
+
+#: course/views.py:1190
+msgid "credit"
+msgstr ""
+
+#: course/views.py:1235
+#, python-format
+msgid "Exception granted to '%(participation)s' for '%(flow_id)s'."
+msgstr ""
+
+#: course/views.py:1265
+#, python-format
+msgid ""
+"Granting exception to '%(participation)s' for '%(flow_id)s' (session "
+"%(session)s)."
+msgstr ""
+
+#: course/views.py:1282
+msgid "only staff may use this tool"
+msgstr ""
+
+#: course/views.py:1325
+#, python-format
+msgid "%(current)d out of %(total)d items processed."
+msgstr ""
+
+#: course/views.py:1385
+msgid "Successfully updated course settings."
+msgstr ""
+
+#: course/views.py:1389
+msgid "No change was made on the settings."
+msgstr ""
+
+#: course/views.py:1393
+msgid "Failed to update course settings."
+msgstr ""
+
+#: course/views.py:1399
+msgid "Edit Course"
+msgstr "コース編集"
+
+#: relate/settings.py:265
+msgid "RELATE"
+msgstr ""
+
+#: relate/templates/403.html:5
+msgid "403 Forbidden"
+msgstr ""
+
+#: relate/templates/403.html:7
+msgid "Access to the page you requested was denied."
+msgstr ""
+
+#: relate/templates/403.html:9
+msgid "Here are a few things you could try:"
+msgstr ""
+
+#: relate/templates/403.html:17
+#, python-format
+msgid ""
+"You're not currently signed in. Access to the resource is restricted, and "
+"since the site has no way of knowing who you are, it denied you accesss. "
+"Once you're signed in, navigate back to your course from the <a href="
+"\"%(relate-home)s\"> home page </a> and retry your last action."
+msgstr ""
+
+#: relate/templates/403.html:42
+msgid " Sorry, and thanks for your patience! "
+msgstr ""
+
+#: relate/templates/404.html:5
+msgid "404 Not Found"
+msgstr ""
+
+#: relate/templates/404.html:8
+msgid "Request URL"
+msgstr ""
+
+#: relate/templates/404.html:12
+msgid ""
+"Oops. Either the URL you entered was invalid, or you stumbled on a dead "
+"link. If it was the latter, please get in touch with your course staff to "
+"let them know what you were doing when the error occurred."
+msgstr ""
+
+#: relate/templates/404.html:20 relate/templates/500.html:18
+#, python-format
+msgid ""
+"In the meantime, you may navigate back to  the <a href=\"%(relate-home)s"
+"\">home page</a>."
+msgstr ""
+
+#: relate/templates/404.html:27 relate/templates/500.html:25
+msgid "Sorry, and thanks for your patience!"
+msgstr ""
+
+#: relate/templates/500.html:5
+msgid "500 Server Error"
+msgstr ""
+
+#: relate/templates/500.html:8
+msgid ""
+"Oops. That shouldn't have happened. Technical details of the error have been "
+"recorded. Please get in touch with your course staff to let them know what "
+"you were doing when the error occurred. Also mention the current time when "
+"sending your report."
+msgstr ""
+
+#: relate/templates/admin/base_site.html:5
+#, python-format
+msgid "%(RELATE)s Administration"
+msgstr ""
+
+#: relate/templates/base-page-top.html:35
+#, python-format
+msgid ""
+"You are currently seeing a preview of what the site would look like at "
+"%(fake_time)s."
+msgstr ""
+
+#: relate/templates/base-page-top.html:49
+#, python-format
+msgid ""
+"You are currently seeing a preview of what the site would look like from "
+"inside the facilities  <b>%(facilities)s</b>."
+msgstr ""
+
+#: relate/templates/base-page-top.html:55 relate/templates/base.html:118
+msgid "Pretend to be in facilities"
+msgstr ""
+
+#: relate/templates/base-page-top.html:63
+msgid "Now impersonating"
+msgstr ""
+
+#: relate/templates/base.html:58
+msgid ""
+"This website may not be compatible with your outdated Internet Explorer "
+"version. If you want use Internet Explorer, please install one with version "
+"10 or higher."
+msgstr ""
+
+#: relate/templates/base.html:84
+msgid "Staff"
+msgstr "管理"
+
+#: relate/templates/base.html:88
+msgid "Admin site"
+msgstr "管理画面"
+
+#: relate/templates/base.html:94
+msgid "Purge page view data"
+msgstr "ページ閲覧情報の削除"
+
+#: relate/templates/base.html:101
+msgid "Issue exam tickets"
+msgstr ""
+
+#: relate/templates/base.html:102
+msgid "Exam check-in"
+msgstr ""
+
+#: relate/templates/base.html:108
+msgid "Test/Troubleshoot"
+msgstr ""
+
+#: relate/templates/base.html:134
+#, python-format
+msgid "Signed in as %(username)s"
+msgstr "%(username)s"
+
+#: relate/templates/base.html:141
+msgid "(impersonated)"
+msgstr ""
+
+#: relate/templates/djangosaml2/wayf.html:5
+msgid "Institutional Login (SAML2)"
+msgstr ""
+
+#: relate/templates/djangosaml2/wayf.html:6
+msgid "Please select your Identity Provider from the following list:"
+msgstr ""
+
+#: relate/templates/maintenance.html:7
+#, python-format
+msgid ""
+"%(RELATE)s is currently in maintenance mode. Sorry for the interruption, "
+"we'll be back shortly."
+msgstr ""
+
+#: relate/templates/sign-in-choice.html:5
+#, python-format
+msgid "Sign in to %(relate_site_name)s"
+msgstr "%(relate_site_name)s にサインイン"
+
+#: relate/templates/sign-in-choice.html:14
+msgid "Sign in using your institution's login"
+msgstr ""
+
+#: relate/templates/sign-in-choice.html:23
+msgid "Sign in using your email"
+msgstr "メールアドレスでサインイン"
+
+#: relate/templates/sign-in-choice.html:32
+msgid "Sign up for an account"
+msgstr ""
+
+#: relate/templates/sign-in-choice.html:41
+msgid "Sign in using an exam ticket"
+msgstr ""
+
+#: relate/templates/sign-in-choice.html:50
+#, python-format
+msgid "Sign in with a %(relate_site_name)s-specific user name and password"
+msgstr "%(relate_site_name)sのユーザ名とパスワードでサインイン"
+
+#: relate/templates/sign-out-confirmation.html:5
+msgid "You've already signed in"
+msgstr "既にサインインしています"
+
+#: relate/templates/sign-out-confirmation.html:6
+msgid "Would you like to sign out and proceed with your previous operation?"
+msgstr "サインアウトしますか？"
+
+#: relate/templates/user-profile-form.html:14
+msgid "I have no Institutional ID"
+msgstr ""
+
+#: relate/templates/user-profile-form.html:16
+msgid ""
+"Check the checkbox if you are not a student or you forget your institutional "
+"id."
+msgstr ""
+
+#: tests/test_checks.py:823
+msgid "my English"
+msgstr ""
+
+#: tests/test_checks.py:824 tests/test_checks.py:828
+msgid "Simplified Chinese"
+msgstr "簡体字中国語"
+
+#: tests/test_checks.py:825 tests/test_checks.py:829 tests/test_checks.py:833
+#: tests/test_checks.py:839 tests/test_checks.py:848
+msgid "German"
+msgstr "ドイツ語"
+
+#: tests/test_checks.py:827 tests/test_checks.py:843 tests/test_misc.py:45
+msgid "English"
+msgstr "英語"
+
+#: tests/test_misc.py:46
+msgid "Korean"
+msgstr "韓国語"
+
+#: tests/test_misc.py:47
+msgid "French"
+msgstr "フランス語"
