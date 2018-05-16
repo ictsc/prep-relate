@@ -5169,15 +5169,15 @@ msgstr ""
 #: course/templates/course/home.html:7
 #, python-format
 msgid " Welcome to %(RELATE)s "
-msgstr ""
+msgstr "%(RELATE)s"
 
 #: course/templates/course/home.html:8
 msgid "RELATE is an Environment for Learning And TEaching"
-msgstr ""
+msgstr "ようこそ、ICTSC予備校へ！<br/>"
 
 #: course/templates/course/home.html:10
 msgid "Learn more"
-msgstr ""
+msgstr "ICTSC公式サイトはこちら"
 
 #: course/templates/course/home.html:23
 msgid "View"
