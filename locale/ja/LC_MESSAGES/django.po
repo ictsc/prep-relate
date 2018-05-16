@@ -5173,11 +5173,11 @@ msgstr "%(RELATE)s"
 
 #: course/templates/course/home.html:8
 msgid "RELATE is an Environment for Learning And TEaching"
-msgstr "ようこそ、ICTSC予備校へ！<br/>ICTSCの公式サイトはこちら！"
+msgstr "ようこそ、ICTSC予備校へ！<br/>"
 
 #: course/templates/course/home.html:10
 msgid "Learn more"
-msgstr "公式サイトへ"
+msgstr "ICTSC公式サイトはこちら"
 
 #: course/templates/course/home.html:23
 msgid "View"
