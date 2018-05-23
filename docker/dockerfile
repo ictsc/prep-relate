@@ -1,18 +1,32 @@
 FROM ubuntu:16.04
-WORKDIR /root/
 
-RUN apt-get update
-RUN apt-get install git python3-pip curl vim -y
-RUN pip3 install --upgrade pip
+# Python3実行環境のインストール.
+RUN apt-get update \
+  && apt-get install -y python3-pip python3-dev curl nginx git \
+  && cd /usr/local/bin \
+  && ln -s /usr/bin/python3 python \
+  && pip3 install --upgrade pip
 
-RUN git clone git://github.com/inducer/relate
-WORKDIR /root/relate
-ADD local_settings_ictsc.py /root/relate/
-RUN cp local_settings_ictsc.py local_settings.py
+# ライブラリのインストール.
+RUN mkdir /relate-for-ictsc
+WORKDIR /relate-for-ictsc/
+COPY ./requirements.txt /relate-for-ictsc/
 RUN pip3 install -r requirements.txt
-RUN python3 manage.py migrate
-#RUN python3 manage.py createsuperuser --username=admin
 
-RUN apt-get install -y npm
+# ソースのコピー
+RUN apt-get install -y vim
+COPY ./ /relate-for-ictsc/
+
+# 設定
+RUN cp local_settings_example.py local_settings.py
+RUN python manage.py migrate
+
+# Install Node.js
+RUN apt-get install --yes curl
+RUN curl --silent --location https://deb.nodesource.com/setup_4.x | bash -
+RUN apt-get install --yes nodejs
+RUN apt-get install --yes build-essential
+
 RUN npm install
-CMD ["python3","manage.py","runserver","0.0.0.0:8000"]
+
+CMD ["python","manage.py","runserver","0.0.0.0:8000"]
