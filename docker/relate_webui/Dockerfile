@@ -23,7 +23,6 @@ RUN pip3 install -r requirements.txt
 COPY ./ /relate-for-ictsc/
 
 # 設定
-RUN cp local_settings_example.py local_settings.py
 RUN python manage.py migrate
 
 RUN npm install
