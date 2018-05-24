@@ -2,10 +2,16 @@ FROM ubuntu:16.04
 
 # Python3実行環境のインストール.
 RUN apt-get update \
-  && apt-get install -y python3-pip python3-dev curl nginx git \
+  && apt-get install -y python3-pip python3-dev curl nginx git vim \
   && cd /usr/local/bin \
   && ln -s /usr/bin/python3 python \
   && pip3 install --upgrade pip
+
+# Install Node.js
+RUN curl --silent --location https://deb.nodesource.com/setup_4.x | bash -
+RUN apt-get install --yes nodejs
+RUN apt-get install --yes build-essential
+
 
 # ライブラリのインストール.
 RUN mkdir /relate-for-ictsc
@@ -14,19 +20,13 @@ COPY ./requirements.txt /relate-for-ictsc/
 RUN pip3 install -r requirements.txt
 
 # ソースのコピー
-RUN apt-get install -y vim
 COPY ./ /relate-for-ictsc/
 
 # 設定
 RUN cp local_settings_example.py local_settings.py
 RUN python manage.py migrate
 
-# Install Node.js
-RUN apt-get install --yes curl
-RUN curl --silent --location https://deb.nodesource.com/setup_4.x | bash -
-RUN apt-get install --yes nodejs
-RUN apt-get install --yes build-essential
-
 RUN npm install
 
+# FIXME: gunicronまたはuwsgiサーバで起動するようにする.
 CMD ["python","manage.py","runserver","0.0.0.0:8000"]
