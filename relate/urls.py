@@ -2,6 +2,8 @@
 
 from __future__ import division
 
+from django.conf.urls.static import static
+
 __copyright__ = "Copyright (C) 2014 Andreas Kloeckner"
 
 __license__ = """
@@ -553,7 +555,7 @@ urlpatterns = [
         name="relate-course_get_flow_session_content"),
 
     url(r'^admin/', admin.site.urls),
-]
+] + static(settings.STATIC_URL, document_root=settings.STATIC_ROOT)
 
 if settings.RELATE_SIGN_IN_BY_SAML2_ENABLED:
     urlpatterns.extend([
