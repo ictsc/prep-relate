@@ -18,6 +18,7 @@ RUN mkdir /relate-for-ictsc
 WORKDIR /relate-for-ictsc/
 COPY ./requirements.txt /relate-for-ictsc/
 RUN pip3 install -r requirements.txt
+RUN pip3 install uwsgi
 
 # ソースのコピー
 COPY ./ /relate-for-ictsc/
@@ -27,7 +28,5 @@ RUN python manage.py migrate
 
 RUN npm install
 
-# FIXME: gunicronまたはuwsgiサーバで起動するようにする.
-#CMD ["python","manage.py","runserver","0.0.0.0:8000"]
-RUN pip3 install uwsgi
+RUN python manage.py collectstatic --noinput
 CMD ["uwsgi","--http",":7777","--file","/relate-for-ictsc/relate/wsgi.py"]
