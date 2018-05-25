@@ -28,4 +28,6 @@ RUN python manage.py migrate
 RUN npm install
 
 # FIXME: gunicronまたはuwsgiサーバで起動するようにする.
-CMD ["python","manage.py","runserver","0.0.0.0:8000"]
+#CMD ["python","manage.py","runserver","0.0.0.0:8000"]
+RUN pip3 install uwsgi
+CMD ["uwsgi","--http",":7777","--file","/relate-for-ictsc/relate/wsgi.py"]
