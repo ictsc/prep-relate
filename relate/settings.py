@@ -205,7 +205,7 @@ STATICFILES_DIRS = (
         join(BASE_DIR, "relate", "static"),
         )
 
-STATIC_URL = '/static/'
+STATIC_URL = '/relate/static/'
 
 STATIC_ROOT = join(BASE_DIR, "static")
 
