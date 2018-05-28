@@ -88,6 +88,8 @@ GIT_ROOT = ".."
 # }}}
 
 # {{{ email
+# Eメールを利用しないためバックエンドをダミーに差し替える.
+EMAIL_BACKEND = 'django.core.mail.backends.dummy.EmailBackend'
 
 EMAIL_HOST = '127.0.0.1'
 EMAIL_HOST_USER = ''
