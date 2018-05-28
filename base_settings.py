@@ -383,7 +383,7 @@ RELATE_SITE_ANNOUNCEMENT = None
 # Make sure you have generated, translate and compile the message file of your
 # language. If commented, RELATE will use default language 'en-us'.
 
-#LANGUAGE_CODE = 'en-us'
+LANGUAGE_CODE = 'ja'
 
 # You can (and it's recommended to) override Django's built-in LANGUAGES settings
 # if you want to filter languages allowed for course-specific languages.
