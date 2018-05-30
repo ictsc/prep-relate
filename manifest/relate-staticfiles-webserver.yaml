@@ -5,30 +5,30 @@ metadata:
 spec:
   type: ClusterIP
   ports:
-  - name: relate-staticfile
+  - name: relate-static
     port: 80
     targetPort: 80
     protocol: TCP
   selector:
-    app: relate-staticfile
+    app: relate-static
 
 ---
 apiVersion: v1
 kind: Pod
 metadata:
-  name: relate-staticfile
+  name: relate-static
   labels:
-    app: relate-staticfile
+    app: relate-static
 spec:
   #volumes:
   #  - name: test
   #    persistentVolumeClaim:
   #      claimName: test
   containers:
-  - name: relate-staticfile
+  - name: relate-static
     image: relate-staticfiles-webserver:20180524
     ports:
-    - name: relate-staticfile
+    - name: relate-static
       containerPort: 80
       protocol: TCP
 #    volumeMounts:
