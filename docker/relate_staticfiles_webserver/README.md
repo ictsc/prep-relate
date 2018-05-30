@@ -1,0 +1,1 @@
+URL: http://localhost/relate-staticfiles/static/
