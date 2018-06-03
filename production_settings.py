@@ -6,6 +6,10 @@ ALLOWED_HOSTS = [
         "*",
         ]
 
+CSRF_TRUSTED_ORIGINS = [
+        ".prep.icttoracon.net",
+]
+
 # Configure the following as url as above.
 RELATE_BASE_URL = "http://YOUR/RELATE/SITE/DOMAIN"
 
