@@ -26,6 +26,22 @@ DATABASES = {
     }
 }
 
+# {{{ git storage
+
+# Your course git repositories will be stored under this directory.
+# Make sure it's writable by your web user.
+#
+# The default below makes them sit side-by-side with your relate checkout,
+# which makes sense for development, but you probably want to change this
+# in production.
+#
+# The 'course identifiers' you enter will be directory names below this root.
+
+# GIT_ROOT = "/some/where"
+GIT_ROOT = "/var"
+
+# }}}
+
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
