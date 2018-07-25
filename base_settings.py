@@ -581,3 +581,6 @@ if RELATE_SIGN_IN_BY_SAML2_ENABLED:
 # }}}
 
 # vim: filetype=python:foldmethod=marker
+
+# 最終回答を提出するボタンを制御するフラグ.
+IS_SUBMIT_FINAL_ANSWER_ENABLE = False
