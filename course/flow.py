@@ -1714,9 +1714,10 @@ def add_buttons_to_form(form, fpctx, flow_session, permissions):
                         accesskey="g",
                         css_class="relate-save-button relate-submit-button"))
         else:
-            form.helper.add_input(
-                    Submit("submit", _("Submit final answer"),
-                        css_class="relate-save-button relate-submit-button"))
+            if settings.IS_SUBMIT_FINAL_ANSWER_ENABLE:
+                form.helper.add_input(
+                        Submit("submit", _("Submit final answer"),
+                            css_class="relate-save-button relate-submit-button"))
     else:
         # Only offer 'save and move on' if student will receive no feedback
         if fpctx.page_data.page_ordinal + 1 < flow_session.page_count:
