@@ -584,3 +584,6 @@ if RELATE_SIGN_IN_BY_SAML2_ENABLED:
 
 # 最終回答を提出するボタンを制御するフラグ.
 IS_SUBMIT_FINAL_ANSWER_ENABLE = False
+
+# 回答を保存するボタンを制御するフラグ.
+IS_SUBMIT_ANSWER_ENABLE = False
