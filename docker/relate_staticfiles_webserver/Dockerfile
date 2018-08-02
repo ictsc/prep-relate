@@ -28,6 +28,6 @@ RUN python manage.py collectstatic --noinput
 ADD docker/relate_staticfiles_webserver/server.conf /etc/nginx/conf.d/default.conf
 RUN mkdir /root/logs
 RUN mkdir -p /root/public/relate-static/
-RUN mv /relate-for-ictsc/static/ /root/public/relate-static/
+RUN cp -r /relate-for-ictsc/static/* /root/public/relate-static/
 RUN chmod 755 -R /root
 CMD ["nginx", "-g", "daemon off;"]
