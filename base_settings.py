@@ -8,6 +8,8 @@ ALLOWED_HOSTS = [
         "*",
         ]
 
+STATIC_URL = '/relate-static/'
+
 # Configure the following as url as above.
 RELATE_BASE_URL = "http://YOUR/RELATE/SITE/DOMAIN"
 
