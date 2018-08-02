@@ -1,8 +1,8 @@
-FROM ubuntu:16.04
+FROM nginx
 
 # Python3実行環境のインストール.
 RUN apt-get update \
-  && apt-get install -y python3-pip python3-dev curl nginx git vim \
+  && apt-get install -y python3-pip python3-dev curl git \
   && cd /usr/local/bin \
   && ln -s /usr/bin/python3 python \
   && pip3 install --upgrade pip
@@ -24,10 +24,10 @@ COPY ./ /relate-for-ictsc/
 
 RUN npm install
 
-RUN python manage.py collectstatic --noinput
+RUN python3 manage.py collectstatic --noinput
 ADD docker/relate_staticfiles_webserver/server.conf /etc/nginx/conf.d/default.conf
 RUN mkdir /root/logs
-RUN mkdir -p /root/public/relate-staticfiles/
-RUN mv /relate-for-ictsc/static/ /root/public/relate-staticfiles/
+RUN mkdir -p /root/public/relate-static/
+RUN cp -r /relate-for-ictsc/static/* /root/public/relate-static/
 RUN chmod 755 -R /root
 CMD ["nginx", "-g", "daemon off;"]
