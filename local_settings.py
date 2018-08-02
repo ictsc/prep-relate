@@ -1,2 +1,11 @@
 # 環境に応じてロードする設定ファイルを変更する.
-from development_settings import *
+import os
+
+if os.environ['DEPLOYMENT_ENV'] == 'production':
+    from production_settings import *
+elif os.environ['DEPLOYMENT_ENV'] == 'staging':
+    from staging_settings import *
+elif os.environ['DEPLOYMENT_ENV'] == 'development':
+    from development_settings import *
+else:
+    from development_settings import *

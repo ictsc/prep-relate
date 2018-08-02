@@ -23,9 +23,6 @@ RUN pip3 install uwsgi
 # ソースのコピー
 COPY ./ /relate-for-ictsc/
 
-# 設定
-RUN python manage.py migrate
-
 RUN npm install
 
 RUN python manage.py collectstatic --noinput
