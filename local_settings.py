@@ -3,6 +3,8 @@ import os
 
 if os.environ['DEPLOYMENT_ENV'] == 'production':
     from production_settings import *
+elif os.environ['DEPLOYMENT_ENV'] == 'training':
+    from training_settings import *
 elif os.environ['DEPLOYMENT_ENV'] == 'staging':
     from staging_settings import *
 elif os.environ['DEPLOYMENT_ENV'] == 'development':
