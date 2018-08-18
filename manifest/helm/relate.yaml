@@ -90,7 +90,7 @@ metadata:
 spec:
   containers:
   - name: relate
-    image: relate-webui:20180808006
+    image: relate-webui:20180818007
     ports:
     - name: relate
       containerPort: 7777
