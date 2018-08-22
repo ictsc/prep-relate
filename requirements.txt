@@ -105,3 +105,5 @@ IPython
 
 psycopg2-binary==2.7.5
 psycopg2==2.7.4
+
+gunicorn==19.9.0

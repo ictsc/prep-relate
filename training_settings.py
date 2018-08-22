@@ -7,7 +7,7 @@ ALLOWED_HOSTS = [
         ]
 
 CSRF_TRUSTED_ORIGINS = [
-        ".prep-dev.icttoracon.net",
+        ".prep-training.icttoracon.net",
 ]
 
 # Configure the following as url as above.
@@ -20,8 +20,8 @@ DATABASES = {
         'ENGINE': 'django.db.backends.postgresql_psycopg2',
         'NAME': 'relate',
         'USER': 'relate',
-        'PASSWORD': 'iCtsC2O18',
-        'HOST': 'db.prep-dev.icttoracon.net',
+        'PASSWORD': '',
+        'HOST': 'db.prep-training.icttoracon.net',
         'PORT': '5432',
     }
 }
@@ -43,7 +43,7 @@ GIT_ROOT = "/var"
 # }}}
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
 TIME_ZONE = "Asia/Tokyo"
 
