@@ -20,7 +20,7 @@ DATABASES = {
         'ENGINE': 'django.db.backends.postgresql_psycopg2',
         'NAME': 'relate',
         'USER': 'relate',
-        'PASSWORD': '',
+        'PASSWORD': 'iCtsC2O18',
         'HOST': 'db.prep-dev.icttoracon.net',
         'PORT': '5432',
     }
