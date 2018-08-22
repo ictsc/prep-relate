@@ -26,4 +26,5 @@ COPY ./ /relate-for-ictsc/
 RUN npm install
 
 RUN python manage.py collectstatic --noinput
-CMD ["uwsgi","--http",":7777","--file","/relate-for-ictsc/relate/wsgi.py"]
+# CMD ["uwsgi","-p","10","--http",":7777","--file","/relate-for-ictsc/relate/wsgi.py"]
+CMD ["gunicorn", "relate.wsgi", "-b", "0.0.0.0:7777", "-w", "10", "--timeout", "30", "--graceful-timeout", "20", "--max-requests", "1000", "--max-requests-jitter", "500", "--backlog", "500", "--access-logfile", "-", "--error-logfile", "-"]
