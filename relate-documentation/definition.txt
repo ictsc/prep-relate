@@ -1,0 +1,2 @@
+.. |RELATE_DJANGO_ADMIN_URL| replace:: https://prep-dev.icttoracon.net/relate/admin
+.. |RELATE_TOP_URL_DEVELOPMENT| replace:: https://prep-dev.icttoracon.net/relate
