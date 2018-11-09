@@ -6,6 +6,8 @@ ALLOWED_HOSTS = [
         "*",
         ]
 
+STATIC_URL = '/relate/static/'
+
 CSRF_TRUSTED_ORIGINS = [
         ".prep-dev.icttoracon.net",
 ]
